@@ -1,0 +1,105 @@
+1.  Trigger for MostRuns: 
+
+
+DELIMITER $$ 
+CREATE TRIGGER DisplayMostRuns 
+
+AFTER INSERT ON `player stats-batting` 
+
+FOR EACH ROW 
+
+BEGIN 
+
+    DECLARE most_runs_player VARCHAR(255); 
+
+    DECLARE most_runs INT; 
+
+  
+
+    SELECT `Player Name`, SUM(Runs) INTO most_runs_player, most_runs 
+
+    FROM `player stats-batting` 
+
+    GROUP BY `Player Name` 
+
+    ORDER BY most_runs DESC 
+
+    LIMIT 1; 
+
+  
+
+    INSERT INTO log_table (event_message) VALUES (CONCAT('Player with most runs: ', most_runs_player, ', Runs: ', most_runs)); 
+
+END$$ 
+ 
+
+DELIMITER ; 
+
+
+
+2. Trigger to Display Latest Champion:
+
+
+DELIMITER $$  
+
+CREATE TRIGGER TriggerDisplayLatestChampion 
+
+AFTER INSERT ON Seasons 
+
+FOR EACH ROW 
+
+BEGIN 
+
+    DECLARE latest_champion VARCHAR(255); 
+
+     
+
+    SELECT Champion INTO latest_champion 
+
+    FROM Seasons 
+
+    ORDER BY Year DESC 
+
+    LIMIT 1; 
+
+  
+
+    INSERT INTO LatestChampion (Champion) VALUES (latest_champion) 
+
+    ON DUPLICATE KEY UPDATE Champion = latest_champion; 
+
+END$$ 
+
+  
+
+DELIMITER ; 
+
+
+3. Trigger to Display Most wickets:
+
+
+
+DELIMITER $$ 
+CREATE TRIGGER DisplayMostWickets 
+
+AFTER INSERT ON `player stats-bowling` 
+
+FOR EACH ROW 
+
+BEGIN 
+
+    DECLARE most_wickets_player VARCHAR(255); 
+
+    SELECT `Player Name` INTO most_wickets_player 
+
+    FROM `player stats-bowling` 
+
+    ORDER BY Wkts DESC 
+
+    LIMIT 1; 
+
+    SET @most_wickets_result = CONCAT('Player with most wickets: ', most_wickets_player); 
+
+END$$ 
+
+DELIMITER ; 
