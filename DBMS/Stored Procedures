@@ -1,0 +1,122 @@
+1.  Stored Procedure to see which team has won most matches across different seasons of the IPL: 
+
+DELIMITER $$  
+
+CREATE PROCEDURE MostWinsTeam() 
+
+BEGIN 
+
+    SELECT Winner, COUNT(*) AS Wins 
+
+    FROM matches 
+
+    GROUP BY Winner 
+
+    ORDER BY Wins DESC 
+
+    LIMIT 1; 
+
+END$$ 
+
+DELIMITER ; 
+
+CALL MostWinsTeam(); 
+
+2. Stored Procedure to see the player with most centuries across all seasons: 
+
+DELIMITER $$ 
+
+CREATE PROCEDURE MostCenturies() 
+
+BEGIN 
+
+    SELECT `Player Name`, SUM(Centuries) AS TotalCenturies 
+
+    FROM `player stats-batting` 
+
+    GROUP BY `Player Name` 
+
+    ORDER BY TotalCenturies DESC 
+
+    LIMIT 1; 
+
+END$$ 
+
+DELIMITER ; 
+
+call MostCenturies(); 
+
+3. Stored Procedure to see the player with most half centuries across all seasons: 
+
+DELIMITER $$ 
+
+CREATE PROCEDURE MostHalfCenturies() 
+
+BEGIN 
+
+    SELECT `Player Name`, SUM(`Half Centuries`) AS TotalHalfCenturies 
+
+    FROM `player stats-batting` 
+
+    GROUP BY `Player Name` 
+
+    ORDER BY TotalHalfCenturies DESC 
+
+    LIMIT 1; 
+
+END$$ 
+
+DELIMITER ; 
+
+call MostHalfCenturies(); 
+
+
+
+4. Stored Procedures for finding the top 5 players with most 5 wicket hauls: 
+
+DELIMITER $$ 
+
+CREATE PROCEDURE MostFiveWicketHauls() 
+
+BEGIN 
+
+    SELECT `Player Name`, SUM(`5`) AS FiveWicketHauls 
+
+    FROM `player stats-bowling` 
+
+    GROUP BY `Player Name` 
+
+    ORDER BY FiveWicketHauls DESC 
+
+    LIMIT 5; 
+
+END$$ 
+
+DELIMITER  
+
+call MostFiveWicketHauls(); 
+
+5.  Stored procedure for finding the top 5 players with most maidens: 
+ 
+
+DELIMITER $$ 
+
+CREATE PROCEDURE MostMaidens() 
+
+BEGIN 
+
+    SELECT `Player Name`, SUM(Mdns) AS Maidens 
+
+    FROM `player stats-bowling` 
+
+    GROUP BY `Player Name` 
+
+    ORDER BY Maidens DESC 
+
+    LIMIT 5; 
+
+END$$ 
+
+DELIMITER  
+
+call MostMaidens(); 
