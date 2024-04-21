@@ -1,0 +1,21 @@
+1.  Function to find which team has finished at top position in Standings table: 
+
+DELIMITER // 
+CREATE FUNCTION TopTeamMostTimes() RETURNS VARCHAR(255) 
+DETERMINISTIC 
+BEGIN 
+    DECLARE top_team VARCHAR(255); 
+    SELECT Teams INTO top_team 
+    FROM ( 
+        SELECT Teams, COUNT(*) AS num_times_top 
+        FROM standings 
+        WHERE Position = 1 
+        GROUP BY Teams 
+        ORDER BY num_times_top DESC 
+        LIMIT 1 
+    ) AS top_team_count; 
+    RETURN top_team; 
+END// 
+DELIMITER ; 
+
+SELECT TopTeamMostTimes(); 
