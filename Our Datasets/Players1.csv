@@ -1,0 +1,697 @@
+Player ID,Name,dob,Bowling,Batting,Nationality,country_id
+102743,Yashasvi Jaiswal,28-12-2001,legbreak,left-hand bat,India,6
+48405,Rohit Sharma,30-04-1987,right-arm offbreak,right-hand bat,India,6
+7568,Chris Gayle,21-09-1979,right-arm offbreak,left-hand bat,West Indies,4
+8742,Robin Uthappa,11-11-1985,right-arm medium,right-hand bat,India,6
+6256,Michael Hussey,27-05-1975,right-arm medium,left-hand bat,Australia,2
+9900,Parthiv Patel,09-03-1985,right-arm offbreak,left-hand bat,India,6
+2281,Rahul Dravid,11-01-1973,right-arm offbreak,right-hand bat,India,6
+75325,Ishan Kishan,18-07-1998,,left-hand bat,India,6
+50281,Steven Smith,02-06-1989,legbreak googly,right-hand bat,Australia,2
+2024,Sourav Ganguly,08-07-1972,right-arm medium,left-hand bat,India,6
+53320,Ben Stokes,04-06-1991,right-arm fast-medium,left-hand bat,England,1
+55296,Aditya Tare,07-11-1987,,right-hand bat,India,6
+15887,Shikhar Dhawan,05-12-1985,right-arm offbreak,left-hand bat,India,6
+103589,Prayas Ray Barman,25-10-2002,legbreak googly,right-hand bat,India,6
+67457,Vijay Zol,23-11-1994,right-arm offbreak,left-hand bat,India,6
+51096,Ajinkya Rahane,06-06-1988,right-arm medium,right-hand bat,India,6
+10125,Shane Watson,17-06-1981,right-arm fast-medium,right-hand bat,Australia,2
+58116,Ashok Menaria,29-10-1990,slow left-arm orthodox,left-hand bat,India,6
+6253,Brad Hodge,29-12-1974,right-arm offbreak,right-hand bat,Australia,2
+10401,Johan Botha,02-05-1982,right-arm offbreak,right-hand bat,South Africa,3
+10553,Stuart Binny,03-06-1984,right-arm medium,right-hand bat,India,6
+55401,Ankeet Chavan,28-10-1985,slow left-arm orthodox,left-hand bat,India,6
+8726,Dishant Yagnik,22-06-1983,,left-hand bat,India,6
+17780,Shaun Tait,22-02-1983,right-arm fast,right-hand bat,Australia,2
+9815,Siddharth Trivedi,04-09-1982,right-arm medium,right-hand bat,India,6
+10129,Shaun Marsh,09-07-1983,slow left-arm orthodox,left-hand bat,Australia,2
+50884,Nitin Saini,28-10-1988,,right-hand bat,India,6
+11984,David Hussey,15-07-1977,right-arm offbreak,right-hand bat,Australia,2
+4173,Azhar Mahmood,28-02-1975,right-arm fast-medium,right-hand bat,Pakistan,7
+66725,Gurkeerat Singh Mann,29-06-1990,right-arm offbreak,right-hand bat,India,6
+95429,Dewald Brevis,29-04-2003,legbreak,right-hand bat,South Africa,3
+61990,Suryakumar Yadav,14-09-1990,right-arm medium,right-hand bat,India,6
+104396,Tilak Varma,08-11-2002,right-arm offbreak,left-hand bat,India,6
+104752,Hrithik Shokeen,14-08-2000,right-arm offbreak,right-hand bat,India,6
+69227,Sandeep Warrier,04-04-1991,right-arm medium,right-hand bat,India,6
+80807,Daniel Sams,27-10-1992,left-arm fast-medium,right-hand bat,Australia,2
+59261,Jaydev Unadkat,18-10-1991,left-arm medium,right-hand bat,India,6
+89779,Riley Meredith,21-06-1996,right-arm fast,right-hand bat,Australia,2
+70640,Jasprit Bumrah,06-12-1993,right-arm fast,right-hand bat,India,6
+95094,Ruturaj Gaikwad,31-01-1997,right-arm offbreak,right-hand bat,India,6
+64864,Mitchell Santner,05-02-1992,slow left-arm orthodox,left-hand bat,New Zealand,5
+74975,Shivam Dube,26-06-1993,right-arm medium,left-hand bat,India,6
+49247,Ravindra Jadeja,06-12-1988,slow left-arm orthodox,left-hand bat,India,6
+60806,Sanju Samson,11-11-1994,,right-hand bat,India,6
+53891,David Miller,10-06-1989,right-arm offbreak,left-hand bat,South Africa,3
+4176,Adam Gilchrist,14-11-1971,right-arm offbreak,left-hand bat,Australia,2
+60628,Rahul Tewatia,20-05-1993,legbreak,left-hand bat,India,6
+2347,Herschelle Gibbs,23-02-1974,right-arm bowler,right-hand bat,South Africa,3
+67312,Tom Curran,12-03-1995,right-arm fast-medium,right-hand bat,England,1
+9570,Scott Styris,10-07-1975,right-arm medium,right-hand bat,New Zealand,5
+8244,Ashley Noffke,30-04-1977,right-arm fast-medium,right-hand bat,Australia,2
+4169,Shahid Afridi,01-03-1980,legbreak googly,right-hand bat,Pakistan,7
+49342,Murali Vijay,01-04-1984,right-arm offbreak,right-hand bat,India,6
+8040,Sanjay Bangar,11-10-1972,right-arm medium-fast,right-hand bat,India,6
+46933,Faf du Plessis,13-07-1984,legbreak,right-hand bat,South Africa,3
+72103,Sam Curran,03-06-1998,left-arm medium-fast,left-hand bat,England,1
+51482,Kedar Jadhav,26-03-1985,right-arm offbreak,right-hand bat,India,6
+7593,MS Dhoni,07-07-1981,right-arm medium,right-hand bat,India,6
+8163,Venugopal Rao,26-02-1982,right-arm offbreak,right-hand bat,India,6
+6377,Owais Shah,22-10-1978,right-arm offbreak,right-hand bat,England,1
+47023,Angelo Mathews,02-06-1987,right-arm medium,right-hand bat,Sri Lanka,8
+17752,Cheteshwar Pujara,25-01-1988,legbreak,right-hand bat,India,6
+59601,Mandeep Singh,18-12-1991,right-arm medium,right-hand bat,India,6
+51216,Wriddhiman Saha,24-10-1984,,right-hand bat,India,6
+7136,Murali Kartik,11-09-1976,slow left-arm orthodox,left-hand bat,India,6
+56442,Harpreet Singh,11-08-1991,right-arm medium,left-hand bat,India,6
+10280,Shane Bond,07-06-1975,right-arm fast,right-hand bat,New Zealand,5
+49327,Ishant Sharma,02-09-1988,right-arm fast-medium,right-hand bat,India,6
+71341,Ricky Bhui,29-09-1996,legbreak googly,right-hand bat,India,6
+1934,Sachin Tendulkar,24-04-1973,right-arm offbreak,right-hand bat,India,6
+15317,Saurabh Tiwary,30-12-1989,,left-hand bat,India,6
+7519,Rajagopal Sathish,14-01-1981,right-arm medium,right-hand bat,India,6
+103872,Rasikh Salam,05-04-2000,right-arm medium,right-hand bat,India,6
+45257,Dwayne Bravo,07-10-1983,right-arm medium,right-hand bat,West Indies,4
+101751,Sudhesan Midhun,07-10-1994,legbreak googly,right-hand bat,India,6
+53271,Jos Buttler,08-09-1990,,right-hand bat,England,1
+96392,Riyan Parag,10-11-2001,legbreak,right-hand bat,India,6
+67455,Axar Patel,20-01-1994,slow left-arm orthodox,left-hand bat,India,6
+72379,Jofra Archer,01-04-1995,right-arm fast,right-hand bat,England,1
+56596,Shreyas Gopal,04-09-1993,legbreak,right-hand bat,India,6
+69114,Ankit Rajpoot,04-12-1993,right-arm medium,right-hand bat,India,6
+101306,Kartik Tyagi,08-11-2000,right-arm fast,right-hand bat,India,6
+52161,Jonny Bairstow,26-09-1989,right-arm medium,right-hand bat,England,1
+7704,Laxmi Shukla,06-05-1981,right-arm medium,right-hand bat,India,6
+63509,Vijay Shankar,26-01-1991,right-arm medium,right-hand bat,India,6
+95319,Priyam Garg,30-11-2000,right-arm medium,right-hand bat,India,6
+104814,Abdul Samad,28-10-2001,legbreak,right-hand bat,India,6
+59339,Jason Holder,05-11-1991,right-arm medium-fast,right-hand bat,West Indies,4
+10384,Brendon McCullum,27-09-1981,right-arm medium,right-hand bat,New Zealand,5
+47624,Manoj Tiwary,14-11-1985,legbreak googly,right-hand bat,India,6
+49361,Dwaraka Ravi Teja,05-09-1987,legbreak googly,right-hand bat,India,6
+7129,Ajit Agarkar,04-12-1977,right-arm fast,right-hand bat,India,6
+48965,Ashok Dinda,25-03-1984,right-arm medium-fast,right-hand bat,India,6
+56415,Kedar Devdhar,14-12-1989,,right-hand bat,India,6
+50377,Ajantha Mendis,11-03-1985,right-arm offbreak,right-hand bat,Sri Lanka,8
+7575,Sridharan Sriram,21-02-1976,slow left-arm orthodox,left-hand bat,India,6
+2232,Jacques Kallis,16-10-1975,right-arm fast-medium,right-hand bat,South Africa,3
+12018,Bharat Chipli,27-01-1983,right-arm medium,right-hand bat,India,6
+44853,Dan Christian,04-05-1983,right-arm fast-medium,right-hand bat,Australia,2
+44930,Ross Taylor,08-03-1984,right-arm offbreak,right-hand bat,New Zealand,5
+8999,Ambati Rayudu,23-09-1985,right-arm offbreak,right-hand bat,India,6
+4130,Johan van der Wath,10-01-1978,right-arm medium-fast,right-hand bat,South Africa,3
+49040,Kieron Pollard,12-05-1987,right-arm medium,right-hand bat,West Indies,4
+51057,Corey Anderson,13-12-1990,left-arm medium-fast,left-hand bat,New Zealand,5
+7139,Harbhajan Singh,03-07-1980,right-arm offbreak,right-hand bat,India,6
+7678,Zaheer Khan,08-10-1978,left-arm fast-medium,right-hand bat,India,6
+45105,Lasith Malinga,28-08-1983,right-arm fast,right-hand bat,Sri Lanka,8
+48431,Pragyan Ojha,05-09-1986,slow left-arm orthodox,left-hand bat,India,6
+15716,Suresh Raina,27-11-1986,right-arm offbreak,left-hand bat,India,6
+55245,Nic Maddinson,21-12-1991,slow left-arm orthodox,left-hand bat,Australia,2
+57148,Ryan Ninan,19-11-1985,right-arm offbreak,right-hand bat,India,6
+44865,Ben Hilfenhaus,15-03-1983,right-arm fast-medium,right-hand bat,Australia,2
+66844,Scott Kuggeleijn,03-01-1992,right-arm fast-medium,right-hand bat,New Zealand,5
+9505,Albie Morkel,10-06-1981,right-arm medium-fast,left-hand bat,South Africa,3
+7458,Shadab Jakati,27-11-1980,slow left-arm orthodox,left-hand bat,India,6
+35812,Aaron Finch,17-11-1986,slow left-arm orthodox,right-hand bat,Australia,2
+60530,KL Rahul,18-04-1992,,right-hand bat,India,6
+12701,Naman Ojha,20-07-1983,,right-hand bat,India,6
+48739,David Warner,27-10-1986,legbreak,left-hand bat,Australia,2
+47078,Moises Henriques,01-02-1987,right-arm fast-medium,right-hand bat,Australia,2
+11399,Irfan Pathan,27-10-1984,left-arm medium-fast,left-hand bat,India,6
+15731,Karn Sharma,23-10-1987,legbreak googly,left-hand bat,India,6
+64767,Akshdeep Nath,10-05-1993,right-arm medium-fast,right-hand bat,India,6
+54282,Bhuvneshwar Kumar,05-02-1990,right-arm medium,right-hand bat,India,6
+75311,Washington Sundar,05-10-1999,right-arm offbreak,left-hand bat,India,6
+59600,Karun Nair,06-12-1991,right-arm offbreak,right-hand bat,India,6
+64402,Lockie Ferguson,13-06-1991,right-arm fast,right-hand bat,New Zealand,5
+71379,George Garton,15-04-1997,left-arm fast,left-hand bat,England,1
+61634,Heinrich Klaasen,30-07-1991,right-arm offbreak,right-hand bat,South Africa,3
+12049,Cameron White,18-08-1983,legbreak googly,right-hand bat,Australia,2
+9587,Kumar Sangakkara,27-10-1977,right-arm offbreak,left-hand bat,Sri Lanka,8
+45222,Jean-Paul Duminy,14-04-1984,right-arm offbreak,left-hand bat,South Africa,3
+61318,Biplab Samantray,14-12-1988,right-arm medium,right-hand bat,India,6
+60609,Ankit Sharma,20-04-1991,slow left-arm orthodox,left-hand bat,India,6
+59215,Ashish Reddy,24-02-1991,right-arm medium,right-hand bat,India,6
+49092,Luke Pomersbach,28-09-1984,right-arm offbreak,left-hand bat,Australia,2
+12562,Amit Mishra,24-11-1982,legbreak,right-hand bat,India,6
+49752,Virat Kohli,05-11-1988,right-arm medium,right-hand bat,India,6
+47154,Dale Steyn,27-06-1983,right-arm fast,right-hand bat,South Africa,3
+46533,AB de Villiers,17-02-1984,right-arm medium,right-hand bat,South Africa,3
+66142,Veer Pratap Singh,03-05-1992,right-arm medium,right-hand bat,India,6
+7716,Yuvraj Singh,12-12-1981,slow left-arm orthodox,left-hand bat,India,6
+51454,Manish Pandey,10-09-1989,right-arm medium,right-hand bat,India,6
+47340,Sachin Rana,18-09-1984,right-arm medium-fast,right-hand bat,India,6
+8876,Michael Clarke,02-04-1981,slow left-arm orthodox,right-hand bat,Australia,2
+45256,Lendl Simmons,25-01-1985,right-arm medium-fast,right-hand bat,West Indies,4
+46925,Joe Denly,16-03-1986,legbreak,right-hand bat,England,1
+70633,Hardik Pandya,11-10-1993,right-arm medium-fast,right-hand bat,India,6
+7630,Mithun Manhas,12-10-1979,right-arm offbreak,right-hand bat,India,6
+10238,Marlon Samuels,05-02-1981,right-arm offbreak,right-hand bat,West Indies,4
+50121,Wayne Parnell,30-07-1989,left-arm medium-fast,left-hand bat,South Africa,3
+101424,Atharva Taide,26-04-2000,slow left-arm orthodox,left-hand bat,India,6
+12548,Chandan Madan,15-10-1982,,right-hand bat,India,6
+7804,Ashish Nehra,29-04-1979,left-arm medium-fast,right-hand bat,India,6
+50810,Rahul Sharma,30-11-1986,legbreak googly,right-hand bat,India,6
+59325,Harmeet Singh,09-10-1987,right-arm medium,right-hand bat,India,6
+47123,RP Singh,06-12-1985,left-arm fast-medium,right-hand bat,India,6
+99252,Darshan Nalkande,04-10-1998,right-arm fast-medium,right-hand bat,India,6
+105215,Noor Ahmad,03-01-2005,left-arm wrist-spin,right-hand bat,Afghanistan,40
+53330,Mitchell Starc,30-01-1990,left-arm fast,left-hand bat,Australia,2
+2041,Muthiah Muralidaran,17-04-1972,right-arm offbreak,right-hand bat,Sri Lanka,8
+61325,Yuzvendra Chahal,23-07-1990,legbreak googly,right-hand bat,India,6
+48998,Abu Nechim,05-11-1988,right-arm medium-fast,right-hand bat,India,6
+54222,Glenn Maxwell,14-10-1988,right-arm offbreak,right-hand bat,Australia,2
+58406,Quinton de Kock,17-12-1992,,left-hand bat,South Africa,3
+59599,Mayank Agarwal,16-02-1991,right-arm offbreak,right-hand bat,India,6
+8107,Kevin Pietersen,27-06-1980,right-arm offbreak,right-hand bat,England,1
+70405,Nicholas Pooran,02-10-1995,right-arm offbreak,left-hand bat,West Indies,4
+8813,Dinesh Karthik,01-06-1985,right-arm offbreak,right-hand bat,India,6
+49318,Rajesh Bishnoi,08-10-1987,right-arm medium-fast,right-hand bat,India,6
+59266,Rahul Shukla,28-08-1990,right-arm medium,right-hand bat,India,6
+63646,Mohammed Shami,03-09-1990,right-arm fast,right-hand bat,India,6
+19422,Imran Tahir,27-03-1979,legbreak googly,right-hand bat,South Africa,3
+54283,Siddarth Kaul,19-05-1990,right-arm medium,right-hand bat,India,6
+57196,James Neesham,17-09-1990,right-arm medium-fast,left-hand bat,New Zealand,5
+54430,Dwaine Pretorius,29-03-1989,right-arm medium-fast,right-hand bat,South Africa,3
+56438,Eklavya Dwivedi,22-07-1988,,right-hand bat,India,6
+101414,Mukesh Choudhary,06-07-1996,left-arm medium,left-hand bat,India,6
+101991,Maheesh Theekshana,01-08-2000,right-arm offbreak,right-hand bat,Sri Lanka,8
+51181,Pradeep Sangwan,05-11-1990,left-arm medium,right-hand bat,India,6
+15732,Ali Murtaza,01-01-1990,slow left-arm orthodox,left-hand bat,India,6
+2119,Matthew Hayden,29-10-1971,right-arm medium,left-hand bat,Australia,2
+62051,Jayant Yadav,22-01-1990,right-arm offbreak,right-hand bat,India,6
+6335,Justin Kemp,02-10-1977,right-arm fast-medium,right-hand bat,South Africa,3
+8821,S Badrinath,30-08-1980,right-arm offbreak,right-hand bat,India,6
+52541,Abhinav Mukund,06-01-1990,legbreak googly,left-hand bat,India,6
+47185,Piyush Chawla,24-12-1988,legbreak,left-hand bat,India,6
+62022,Deepak Chahar,07-08-1992,right-arm medium,right-hand bat,India,6
+66941,Lungi Ngidi,29-03-1996,right-arm fast-medium,right-hand bat,South Africa,3
+51050,Iqbal Abdulla,02-12-1989,slow left-arm orthodox,left-hand bat,India,6
+66143,Domnic Muthuswami,09-03-1981,right-arm medium,right-hand bat,India,6
+52290,Jason Roy,21-07-1990,,right-hand bat,England,1
+49309,Dawid Malan,03-09-1987,legbreak,left-hand bat,England,1
+7549,Tyron Henderson,01-08-1974,right-arm fast-medium,right-hand bat,South Africa,3
+66358,Manan Vohra,18-07-1993,right-arm medium,right-hand bat,India,6
+66371,Billy Stanlake,04-11-1994,right-arm fast,left-hand bat,Australia,2
+61988,Unmukt Chand,26-03-1993,right-arm offbreak,right-hand bat,USA,11
+47308,Abhishek Nayar,08-10-1983,right-arm medium,left-hand bat,India,6
+12601,Ryan Harris,11-10-1979,right-arm fast,right-hand bat,Australia,2
+75591,Rinku Singh,12-10-1997,right-arm offbreak,left-hand bat,India,6
+54010,Parvinder Awana,19-07-1986,right-arm medium,right-hand bat,India,6
+44660,Luke Wright,07-03-1985,right-arm medium,right-hand bat,England,1
+49193,Thisara Perera,03-04-1989,right-arm medium-fast,left-hand bat,Sri Lanka,8
+24672,Mashrafe Mortaza,05-10-1983,right-arm fast-medium,right-hand bat,Bangladesh,25
+55321,Peter Handscomb,26-04-1991,,right-hand bat,Australia,2
+6354,Morne van Wyk,20-03-1979,slow left-arm orthodox,right-hand bat,South Africa,3
+45890,Ryan McLaren,09-02-1983,right-arm medium-fast,left-hand bat,South Africa,3
+15267,Thilan Thushara,01-03-1981,left-arm fast-medium,left-hand bat,Sri Lanka,8
+15739,Tanmay Srivastava,07-11-1989,right-arm medium,left-hand bat,India,6
+44946,Jesse Ryder,06-08-1984,right-arm medium,left-hand bat,New Zealand,5
+7723,Gagandeep Singh,03-10-1981,right-arm medium-fast,right-hand bat,India,6
+47184,Vikram Singh,17-09-1984,right-arm medium-fast,right-hand bat,India,6
+8021,Abhishek Jhunjhunwala,01-12-1982,right-arm offbreak,right-hand bat,India,6
+87603,Khaleel Ahmed,05-12-1997,left-arm medium,right-hand bat,India,6
+75315,M Shahrukh Khan,27-05-1995,right-arm offbreak,right-hand bat,India,6
+51187,Shrikant Wagh,09-10-1988,left-arm medium-fast,left-hand bat,India,6
+80451,Odean Smith,01-11-1996,right-arm fast-medium,right-hand bat,West Indies,4
+6315,Mahela Jayawardene,27-05-1977,right-arm medium,right-hand bat,Sri Lanka,8
+46591,Jerome Taylor,22-06-1984,right-arm fast,right-hand bat,West Indies,4
+79159,Rashid Khan,20-09-1998,legbreak googly,right-hand bat,Afghanistan,40
+61797,Sandeep Sharma,18-05-1993,right-arm medium,right-hand bat,India,6
+79597,T Natarajan,04-04-1991,left-arm medium,left-hand bat,India,6
+15308,Shahbaz Nadeem,12-08-1989,slow left-arm orthodox,right-hand bat,India,6
+58185,Kevon Cooper,16-02-1989,right-arm medium,right-hand bat,West Indies,4
+87477,Mohammed Siraj,13-03-1994,right-arm fast,right-hand bat,India,6
+71335,Sarfaraz Khan,22-10-1997,legbreak,right-hand bat,India,6
+46695,Vikramjeet Malik,09-05-1983,right-arm medium,right-hand bat,India,6
+64443,Sheldon Cottrell,19-08-1989,left-arm fast-medium,right-hand bat,West Indies,4
+104770,Ravi Bishnoi,05-09-2000,legbreak googly,right-hand bat,India,6
+70411,Nitish Rana,27-12-1993,right-arm medium,left-hand bat,India,6
+10671,Ramesh Powar,20-05-1978,right-arm offbreak,right-hand bat,India,6
+10556,Vinay Kumar,12-02-1984,right-arm medium,right-hand bat,India,6
+48319,Praveen Kumar,02-10-1986,right-arm medium,right-hand bat,India,6
+1973,Anil Kumble,17-10-1970,legbreak googly,right-hand bat,India,6
+15813,Nathan Rimmington,11-11-1982,right-arm fast-medium,right-hand bat,Australia,2
+48879,Yusuf Abdulla,17-01-1983,left-arm fast-medium,left-hand bat,South Africa,3
+62182,Hanuma Vihari,13-10-1993,right-arm offbreak,right-hand bat,India,6
+61832,Chris Morris,30-04-1987,right-arm fast-medium,right-hand bat,South Africa,3
+12894,Ravichandran Ashwin,17-09-1986,right-arm offbreak,right-hand bat,India,6
+47695,Dirk Nannes,16-05-1976,left-arm fast,right-hand bat,Australia,2
+66116,Murugan Ashwin,08-09-1990,legbreak googly,right-hand bat,India,6
+66722,Mohit Sharma,18-09-1988,right-arm medium,right-hand bat,India,6
+53716,Mitchell McClenaghan,11-06-1986,left-arm fast-medium,left-hand bat,New Zealand,5
+11920,Manvinder  Bisla,27-12-1984,,right-hand bat,India,6
+77835,KC Cariappa,13-04-1994,legbreak,right-hand bat,India,6
+57444,Varun Aaron,29-10-1989,right-arm fast,right-hand bat,India,6
+3328,Brad Hogg,06-02-1971,left-arm wrist-spin,left-hand bat,Australia,2
+96752,Tejas Baroka,01-02-1996,legbreak googly,right-hand bat,India,6
+48249,Pankaj Singh,06-05-1985,right-arm medium-fast,right-hand bat,India,6
+50809,Paidikalva Vijaykumar,20-10-1986,right-arm medium,right-hand bat,India,6
+48381,Anand Rajan,17-04-1987,right-arm medium,right-hand bat,India,6
+10406,Graeme Smith,01-02-1981,right-arm offbreak,left-hand bat,South Africa,3
+52539,Shreevats Goswami,18-05-1989,,left-hand bat,India,6
+7793,Paul Valthaty,07-12-1983,right-arm medium,right-hand bat,India,6
+7773,Gautam Gambhir,14-10-1981,legbreak,left-hand bat,India,6
+15473,Yusuf Pathan,17-11-1982,right-arm offbreak,right-hand bat,India,6
+7520,Rajat Bhatia,22-10-1979,right-arm medium-fast,right-hand bat,India,6
+50483,James Faulkner,29-04-1990,left-arm fast-medium,right-hand bat,Australia,2
+50709,Kane Richardson,12-02-1991,right-arm fast-medium,right-hand bat,Australia,2
+51098,Dhawal Kulkarni,10-12-1988,right-arm medium,right-hand bat,India,6
+68573,Pravin Tambe,08-10-1971,legbreak,right-hand bat,India,6
+70472,Matthew Short,08-11-1995,right-arm offbreak,right-hand bat,Australia,2
+52319,Sikandar Raza,24-04-1986,right-arm offbreak,right-hand bat,Zimbabwe,9
+50618,Sunny Gupta,27-09-1988,right-arm offbreak,right-hand bat,India,6
+72385,Fabian Allen,07-05-1995,slow left-arm orthodox,right-hand bat,West Indies,4
+66190,Travis Head,29-12-1993,right-arm offbreak,left-hand bat,Australia,2
+50886,Adrian Barath,14-04-1990,right-arm offbreak,right-hand bat,West Indies,4
+61479,Sachin Baby,18-12-1988,right-arm offbreak,left-hand bat,India,6
+108612,Prashant Solanki,22-02-2000,legbreak,right-hand bat,India,6
+74633,Navdeep Saini,23-11-1992,right-arm fast,right-hand bat,India,6
+47347,Bipul Sharma,28-09-1983,slow left-arm orthodox,left-hand bat,India,6
+67458,Nikhil Naik,09-11-1994,,right-hand bat,India,6
+81147,Venkatesh Iyer,25-12-1994,right-arm medium,left-hand bat,India,6
+8161,Shalabh Srivastava,22-09-1981,left-arm fast-medium,right-hand bat,India,6
+102753,Sai Sudharsan,15-10-2001,legbreak,left-hand bat,India,6
+7540,Charl Langeveldt,17-12-1974,right-arm fast-medium,right-hand bat,South Africa,3
+48277,Shakib Al Hasan,24-03-1987,slow left-arm orthodox,left-hand bat,Bangladesh,25
+51012,Andre Russell,29-04-1988,right-arm fast,right-hand bat,West Indies,4
+36039,Nayan Doshi,06-10-1978,slow left-arm orthodox,right-hand bat,England,1
+9801,Wilkin Mota,20-09-1981,right-arm medium,right-hand bat,India,6
+5966,Brett Lee,08-11-1976,right-arm fast,right-hand bat,Australia,2
+58265,Jaskaran Singh,04-09-1989,right-arm medium,right-hand bat,India,6
+45554,Dwayne Smith,12-04-1983,right-arm medium,right-hand bat,West Indies,4
+7786,Aakash Chopra,19-09-1977,right-arm medium,right-hand bat,India,6
+35384,George Bailey,07-09-1982,right-arm medium,right-hand bat,Australia,2
+51491,Rishi Dhawan,19-02-1990,right-arm medium-fast,right-hand bat,India,6
+53978,Karanveer Singh,08-11-1987,legbreak googly,right-hand bat,India,6
+10421,Tatenda Taibu,14-05-1983,right-arm medium,right-hand bat,Zimbabwe,9
+84649,Shivil Kaushik,07-09-1995,left-arm wrist-spin,right-hand bat,India,6
+47186,Sunny Singh,18-12-1986,right-arm medium-fast,right-hand bat,India,6
+17731,Raju Bhatkal,01-09-1985,right-arm medium,right-hand bat,India,6
+44908,Umar Gul,15-10-1982,right-arm fast-medium,right-hand bat,Pakistan,7
+95316,Shubman Gill,08-09-1999,right-arm offbreak,right-hand bat,India,6
+96417,Shivam Mavi,26-11-1998,right-arm fast-medium,right-hand bat,India,6
+55398,Rassie van der Dussen,07-02-1989,legbreak,right-hand bat,South Africa,3
+50771,Mitchell Marsh,20-10-1991,right-arm medium,right-hand bat,Australia,2
+77887,Abhinav Manohar,16-09-1994,legbreak googly,right-hand bat,India,6
+49035,Javon Searles,21-12-1986,right-arm fast-medium,right-hand bat,West Indies,4
+72397,Alzarri Joseph,20-11-1996,right-arm fast,right-hand bat,West Indies,4
+84635,Prasidh Krishna,19-02-1996,right-arm fast-medium,right-hand bat,India,6
+45358,Ryan ten Doeschate,30-06-1980,right-arm medium-fast,right-hand bat,Netherlands,15
+52241,Sam Billings,15-06-1991,,right-hand bat,England,1
+2314,Paul Collingwood,26-05-1976,right-arm medium,right-hand bat,England,1
+45592,Joginder Sharma,23-10-1983,right-arm fast-medium,right-hand bat,India,6
+103599,Simarjeet Singh,17-01-1998,right-arm medium-fast,right-hand bat,India,6
+62500,Andrew Tye,12-12-1986,right-arm medium-fast,right-hand bat,Australia,2
+4380,Daniel Vettori,27-01-1979,slow left-arm orthodox,left-hand bat,New Zealand,5
+96395,Ramandeep Singh,13-04-1997,right-arm medium,right-hand bat,India,6
+106418,Ripal Patel,28-09-1995,right-arm medium-fast,right-hand bat,India,6
+11374,Farveez Maharoof,07-09-1984,right-arm fast-medium,right-hand bat,Sri Lanka,8
+94153,Sanjay Yadav,10-05-1995,slow left-arm orthodox,left-hand bat,India,6
+62033,Ishwar Pandey,15-08-1989,right-arm medium,right-hand bat,India,6
+61413,Evin Lewis,27-12-1991,,left-hand bat,West Indies,4
+62587,Reece Topley,21-02-1994,left-arm fast-medium,right-hand bat,England,1
+49357,Sheldon Jackson,27-09-1986,,right-hand bat,India,6
+96408,Anukul Roy,30-11-1998,slow left-arm orthodox,left-hand bat,India,6
+7432,Ray Price,12-06-1976,slow left-arm orthodox,right-hand bat,Zimbabwe,9
+49496,Chris Woakes,02-03-1989,right-arm fast-medium,right-hand bat,England,1
+60529,Abrar Kazi,29-09-1989,slow left-arm orthodox,left-hand bat,India,6
+46717,Pardeep Sahu,21-08-1985,legbreak googly,right-hand bat,India,6
+75321,Virat Singh,08-12-1997,legbreak googly,left-hand bat,India,6
+57609,Doug Bracewell,28-09-1990,right-arm fast-medium,right-hand bat,New Zealand,5
+47055,Eoin Morgan,10-09-1986,right-arm medium,left-hand bat,England,1
+54479,Debabrata Das,22-09-1986,legbreak googly,right-hand bat,India,6
+49039,Sunil Narine,26-05-1988,right-arm offbreak,left-hand bat,West Indies,4
+63522,Baba Indrajith,08-07-1994,legbreak googly,right-hand bat,India,6
+9022,Lakshmipathy Balaji,27-09-1981,right-arm medium-fast,right-hand bat,India,6
+3317,VVS Laxman,01-11-1974,right-arm offbreak,right-hand bat,India,6
+104045,Kuldeep Sen,22-10-1996,right-arm fast,right-hand bat,India,6
+94051,Sai Kishore,06-11-1996,slow left-arm orthodox,left-hand bat,India,6
+45774,Fidel Edwards,06-02-1982,right-arm fast,right-hand bat,West Indies,4
+7632,Mohammad Kaif,01-12-1980,right-arm offbreak,right-hand bat,India,6
+48927,Martin Guptill,30-09-1986,right-arm offbreak,right-hand bat,New Zealand,5
+7708,Niraj Patel,26-03-1981,,left-hand bat,India,6
+11647,Salman Butt,07-10-1984,right-arm offbreak,left-hand bat,Pakistan,7
+2000,Shane Warne,13-09-1969,legbreak googly,right-hand bat,Australia,2
+47252,Mahesh Rawat,25-10-1985,,right-hand bat,India,6
+48128,Sohail Tanvir,12-12-1984,left-arm medium-fast,left-hand bat,Pakistan,7
+47100,Munaf Patel,12-07-1983,right-arm medium-fast,right-hand bat,India,6
+64479,Deepak Hooda,19-04-1995,right-arm offbreak,right-hand bat,India,6
+51421,Chris Jordan,04-10-1988,right-arm fast-medium,right-hand bat,England,1
+111976,Harshit Rana,22-12-2001,right-arm fast,right-hand bat,India,6
+72363,Phil Salt,28-08-1996,right-arm offbreak,right-hand bat,England,1
+7781,Virender Sehwag,20-10-1978,right-arm offbreak,right-hand bat,India,6
+47079,Ben Rohrer,26-03-1981,,left-hand bat,Australia,2
+52521,Chidhambaram Gautam,08-03-1986,,right-hand bat,India,6
+47289,Morne Morkel,06-10-1984,right-arm fast,left-hand bat,South Africa,3
+53439,Ben Laughlin,03-10-1982,right-arm fast-medium,right-hand bat,Australia,2
+58274,Umesh Yadav,25-10-1987,right-arm fast,right-hand bat,India,6
+8399,Shane Harwood,01-03-1974,right-arm fast-medium,right-hand bat,Australia,2
+108718,Aman Hakim Khan,23-11-1996,right-arm medium,right-hand bat,India,6
+48269,Amit Singh,21-06-1981,right-arm medium-fast,right-hand bat,India,6
+49005,Sunny Sohal,10-11-1987,legbreak,right-hand bat,USA,11
+89889,Ishan Porel,05-09-1998,right-arm medium,right-hand bat,India,6
+15851,Karan Goel,24-12-1986,right-arm offbreak,left-hand bat,India,6
+10562,Alfonso Thomas,09-02-1977,right-arm fast-medium,right-hand bat,South Africa,3
+54314,Alex Carey,27-08-1991,,left-hand bat,Australia,2
+58299,Anureet Singh,02-03-1988,right-arm medium,right-hand bat,India,6
+61489,Bhargav Bhatt,13-05-1990,slow left-arm orthodox,left-hand bat,India,6
+48189,Tanmay Mishra,22-12-1986,right-arm fast-medium,right-hand bat,India,6
+102735,Ayush Badoni,03-12-1999,right-arm offbreak,right-hand bat,India,6
+103701,Kumar Kartikeya,26-12-1997,slow left-arm orthodox,right-hand bat,India,6
+17850,Luke Ronchi,23-04-1981,,right-hand bat,New Zealand,5
+12084,Tirumalasetti Suman,15-12-1983,right-arm offbreak,right-hand bat,India,6
+6259,Simon Katich,21-08-1975,left-arm wrist-spin,left-hand bat,Australia,2
+6405,Ramnaresh Sarwan,23-06-1980,legbreak,right-hand bat,West Indies,4
+49532,Alex Hales,03-01-1989,right-arm medium,right-hand bat,England,1
+85763,Mukesh Kumar,12-10-1993,right-arm medium,right-hand bat,India,6
+51088,Kane Williamson,08-08-1990,right-arm offbreak,right-hand bat,New Zealand,5
+9639,James Franklin,07-11-1980,left-arm medium,left-hand bat,New Zealand,5
+110977,Yash Dhull,11-11-2002,right-arm offbreak,right-hand bat,India,6
+80425,Rovman Powell,23-07-1993,right-arm medium-fast,right-hand bat,West Indies,4
+75993,Basil Thampi,11-09-1993,right-arm fast-medium,right-hand bat,India,6
+86109,Lalit Yadav,03-01-1997,right-arm offbreak,right-hand bat,India,6
+9492,Robin Peterson,04-08-1979,slow left-arm orthodox,left-hand bat,South Africa,3
+110107,Abishek Porel,17-10-2002,,left-hand bat,India,6
+60691,Ronit More,02-02-1992,right-arm medium,right-hand bat,India,6
+63651,Anrich Nortje,16-11-1993,right-arm fast,right-hand bat,South Africa,3
+101339,Josh Philippe,01-06-1997,,right-hand bat,Australia,2
+49441,Harry Gurney,25-10-1986,left-arm fast-medium,right-hand bat,England,1
+8270,Shoaib Malik,01-02-1982,right-arm offbreak,right-hand bat,Pakistan,7
+61999,Rahul Tripathi,02-03-1991,right-arm medium,right-hand bat,India,6
+48373,Yo Mahesh,21-12-1987,right-arm medium-fast,right-hand bat,India,6
+63224,Krunal Pandya,24-03-1991,slow left-arm orthodox,left-hand bat,India,6
+2101,Glenn McGrath,09-02-1970,right-arm fast-medium,right-hand bat,Australia,2
+19627,Mohammad Asif,20-12-1982,right-arm fast-medium,left-hand bat,Pakistan,7
+95315,Prithvi Shaw,09-11-1999,right-arm offbreak,right-hand bat,India,6
+114312,Suyash Sharma,15-05-2003,legbreak googly,right-hand bat,India,6
+96335,Cameron Green,03-06-1999,right-arm fast-medium,right-hand bat,Australia,2
+71331,Shreyas Iyer,06-12-1994,right-arm offbreak,right-hand bat,India,6
+96401,Shubham Agarwal,21-11-1993,legbreak googly,right-hand bat,India,6
+108342,Arshad Khan,20-12-1997,left-arm medium,left-hand bat,India,6
+83439,Tim David,16-03-1996,right-arm offbreak,right-hand bat,Australia,2
+69697,Tristan Stubbs,14-08-2000,right-arm offbreak,right-hand bat,South Africa,3
+86165,Rishabh Pant,04-10-1997,,left-hand bat,India,6
+72393,Shimron Hetmyer,26-12-1996,,left-hand bat,West Indies,4
+94125,Narayan Jagadeesan,24-12-1995,,right-hand bat,India,6
+58403,Devon Conway,08-07-1991,right-arm medium,left-hand bat,New Zealand,5
+81195,Nathu Singh,08-09-1995,right-arm medium,right-hand bat,India,6
+67296,Kagiso Rabada,25-05-1995,right-arm fast,left-hand bat,South Africa,3
+73507,Avesh Khan,13-12-1996,right-arm fast-medium,right-hand bat,India,6
+1988,Sanath Jayasuriya,30-06-1969,slow left-arm orthodox,left-hand bat,Sri Lanka,8
+7447,Dominic Thornely,01-10-1978,right-arm medium,right-hand bat,Australia,2
+48349,Pinal Shah,03-11-1987,,right-hand bat,India,6
+2228,Shaun Pollock,16-07-1973,right-arm fast-medium,right-hand bat,South Africa,3
+95320,Abhishek Sharma,04-09-2000,slow left-arm orthodox,left-hand bat,India,6
+7700,Musavir Khote,22-04-1980,right-arm medium,right-hand bat,India,6
+53582,Yogesh Nagar,06-01-1990,right-arm offbreak,right-hand bat,India,6
+2120,Shivnarine Chanderpaul,16-08-1974,legbreak,left-hand bat,West Indies,4
+12036,Travis Birt,09-12-1981,right-arm medium,left-hand bat,Australia,2
+47391,Roelof van der Merwe,31-12-1984,slow left-arm orthodox,right-hand bat,Netherlands,15
+3947,Mark Boucher,03-12-1976,right-arm medium,right-hand bat,South Africa,3
+70277,Aiden Markram,04-10-1994,right-arm offbreak,right-hand bat,South Africa,3
+48571,Rob Quiney,20-08-1982,right-arm medium,left-hand bat,Australia,2
+6426,Brad Haddin,23-10-1977,,right-hand bat,Australia,2
+6769,Dimitri Mascarenhas,30-10-1977,right-arm fast-medium,right-hand bat,England,1
+9253,Andrew McDonald,05-06-1981,right-arm fast-medium,right-hand bat,Australia,2
+11830,Ishan Malhotra,23-05-1984,right-arm medium-fast,right-hand bat,India,6
+45487,Doug Bollinger,24-07-1981,left-arm fast-medium,left-hand bat,Australia,2
+44814,Jamaluddin Syed Mohammad,03-06-1983,slow left-arm orthodox,left-hand bat,India,6
+48777,David Wiese,18-05-1985,right-arm medium-fast,right-hand bat,Namibiia,28
+45258,Ravi Rampaul,15-10-1984,right-arm fast-medium,left-hand bat,West Indies,4
+59260,Harshal Patel,23-11-1990,right-arm medium,right-hand bat,India,6
+49427,Adil Rashid,17-02-1988,legbreak,right-hand bat,England,1
+48155,Colin Ingram,03-07-1985,legbreak,left-hand bat,South Africa,3
+10130,Mitchell Johnson,02-11-1981,left-arm fast,left-hand bat,Australia,2
+49108,Tim Southee,11-12-1988,right-arm medium-fast,right-hand bat,New Zealand,5
+64707,Gurinder Sandhu,14-06-1993,right-arm fast-medium,left-hand bat,Australia,2
+54340,Chris Lynn,10-04-1990,slow left-arm orthodox,right-hand bat,Australia,2
+66259,Akeal Hosein,25-04-1993,slow left-arm orthodox,left-hand bat,West Indies,4
+48253,Chetanya Nanda,29-03-1979,legbreak,right-hand bat,India,6
+89165,Sandeep Lamichhane,02-08-2000,legbreak googly,right-hand bat,Nepal,32
+47231,Colin de Grandhomme,22-07-1986,right-arm medium-fast,right-hand bat,New Zealand,5
+96617,Mayank Markande,11-11-1997,legbreak,right-hand bat,India,6
+4382,Andrew Symonds,09-06-1975,right-arm medium,right-hand bat,Australia,2
+2121,Stephen Fleming,01-04-1973,,left-hand bat,New Zealand,5
+2166,Chaminda Vaas,27-01-1974,left-arm fast-medium,left-hand bat,Sri Lanka,8
+7528,Vidyut Sivaramakrishnan,03-12-1981,slow left-arm orthodox,left-hand bat,India,6
+48359,Richard Levi,14-01-1988,right-arm medium,right-hand bat,South Africa,3
+10787,Michael Lumb,12-02-1980,right-arm medium,left-hand bat,England,1
+2066,Damien Martyn,21-10-1971,right-arm medium,right-hand bat,Australia,2
+53565,Shoaib Ahmed,19-11-1987,right-arm fast-medium,right-hand bat,India,6
+12106,Swapnil Asnodkar,29-03-1984,right-arm offbreak,right-hand bat,India,6
+8114,Lee Carseldine,17-11-1975,left-arm medium,left-hand bat,Australia,2
+4073,Makhaya Ntini,06-07-1977,right-arm fast,right-hand bat,South Africa,3
+53549,Manpreet Gony,04-01-1984,right-arm medium,right-hand bat,India,6
+49042,Abhishek Raut,03-03-1987,legbreak googly,right-hand bat,India,6
+64947,Matt Henry,14-12-1991,right-arm fast-medium,right-hand bat,New Zealand,5
+59394,Marchant de Lange,13-10-1990,right-arm fast,right-hand bat,South Africa,3
+21588,Padmanabhan Prasanth,03-09-1985,slow left-arm orthodox,left-hand bat,India,6
+8989,Gnaneswara Rao,25-08-1984,right-arm medium,right-hand bat,India,6
+58772,Daryl Mitchell,20-05-1991,right-arm medium,right-hand bat,New Zealand,5
+66726,Barinder Sran,10-12-1992,left-arm medium,left-hand bat,India,6
+90165,Mujeeb Ur Rahman,28-03-2001,right-arm offbreak,right-hand bat,Afghanistan,40
+107007,Vaibhav Arora,14-12-1997,right-arm fast-medium,right-hand bat,India,6
+101804,Sanvir Singh,12-10-1996,right-arm medium,right-hand bat,India,6
+63477,Shardul Thakur,16-10-1991,right-arm medium,right-hand bat,India,6
+9235,James Hopes,24-10-1978,right-arm medium,right-hand bat,Australia,2
+12810,Uday Kaul,02-12-1987,,left-hand bat,India,6
+45617,Yashpal Singh,27-11-1981,right-arm medium,right-hand bat,India,6
+77821,Praveen Dubey,01-07-1993,legbreak googly,right-hand bat,India,6
+62153,Adam Milne,13-04-1992,right-arm fast,right-hand bat,New Zealand,5
+45772,Samuel Badree,09-03-1981,legbreak,right-hand bat,West Indies,4
+49958,Nathan Coulter-Nile,11-10-1987,right-arm fast,right-hand bat,Australia,2
+50781,James Pattinson,03-05-1990,right-arm fast-medium,left-hand bat,Australia,2
+83915,Obed McCoy,04-01-1997,left-arm fast-medium,left-hand bat,West Indies,4
+95219,Rahul Chahar,04-08-1999,legbreak googly,right-hand bat,India,6
+7979,Jagadeesh Arunkumar,18-01-1975,right-arm offbreak,right-hand bat,India,6
+56511,Bhanuka Rajapaksa,24-10-1991,right-arm medium,left-hand bat,Sri Lanka,8
+59832,Liam Livingstone,04-08-1993,right-arm offbreak,right-hand bat,England,1
+75347,Jitesh Sharma,22-10-1993,,right-hand bat,India,6
+104281,Harpreet Brar,16-09-1995,slow left-arm orthodox,left-hand bat,India,6
+103766,Prabhsimran Singh,10-08-2000,,right-hand bat,India,6
+52656,Joe Root,30-12-1990,right-arm offbreak,right-hand bat,England,1
+101430,Arshdeep Singh,05-02-1999,left-arm medium-fast,left-hand bat,India,6
+104817,Dhruv Jurel,21-01-2001,,right-hand bat,India,6
+53314,Abhimanyu Mithun,25-10-1989,right-arm medium,right-hand bat,India,6
+80645,Rajat Patidar,01-06-1993,right-arm offbreak,right-hand bat,India,6
+8241,Michael Klinger,04-07-1980,,right-hand bat,Australia,2
+96768,Ankit Soni,02-08-1993,legbreak,right-hand bat,India,6
+68885,Dhruv Shorey,05-06-1992,right-arm offbreak,right-hand bat,India,6
+8807,Raiphi Gomez,16-10-1985,right-arm medium,right-hand bat,India,6
+12020,Sreesanth,06-02-1983,right-arm fast-medium,right-hand bat,India,6
+51196,Prasanth Parameswaran,30-05-1985,left-arm medium,right-hand bat,India,6
+49346,Jalaj Saxena,15-12-1986,right-arm offbreak,right-hand bat,India,6
+47324,Ajit  Chandila,05-12-1983,right-arm offbreak,right-hand bat,India,6
+77669,Jhye Richardson,20-09-1996,right-arm fast,right-hand bat,Australia,2
+67090,Junior Dala,29-12-1989,right-arm medium,right-hand bat,South Africa,3
+55402,Siddharth Chitnis,06-05-1987,right-arm offbreak,right-hand bat,India,6
+51455,Sreenath Aravind,08-04-1984,left-arm medium-fast,left-hand bat,India,6
+66101,Jagadeesha Suchith,16-01-1994,slow left-arm orthodox,left-hand bat,India,6
+46597,Moeen Ali,18-06-1987,right-arm offbreak,left-hand bat,England,1
+70691,Kyle Jamieson,30-12-1994,right-arm fast-medium,right-hand bat,New Zealand,5
+66253,Pawan Negi,06-01-1993,slow left-arm orthodox,left-hand bat,India,6
+90231,Fazalhaq Farooqi,22-09-2000,left-arm fast-medium,right-hand bat,Afghanistan,40
+84201,Sherfane Rutherford,15-08-1998,right-arm fast-medium,left-hand bat,West Indies,4
+51367,Josh Hazlewood,08-01-1991,right-arm fast-medium,left-hand bat,Australia,2
+2230,Ricky Ponting,19-12-1974,right-arm medium,right-hand bat,Australia,2
+81197,Mahipal Lomror,16-11-1999,slow left-arm orthodox,left-hand bat,India,6
+60737,Krishnappa Gowtham,20-10-1988,right-arm offbreak,right-hand bat,India,6
+9707,Daniel Harris,31-12-1979,right-arm medium,right-hand bat,Australia,2
+49002,John Hastings,04-11-1985,right-arm fast-medium,right-hand bat,Australia,2
+67586,Ish Sodhi,31-10-1992,legbreak,right-hand bat,New Zealand,5
+80639,Glenn Phillips,06-12-1996,right-arm offbreak,right-hand bat,New Zealand,5
+48248,Anustup Majumdar,30-04-1984,legbreak googly,right-hand bat,India,6
+98673,Varun Chakravarthy,29-08-1991,legbreak googly,right-hand bat,India,6
+96758,Kulwant Khejroliya,13-03-1992,left-arm medium-fast,left-hand bat,India,6
+10145,TP Sudhindra,24-04-1984,right-arm fast,left-hand bat,India,6
+101780,Chetan Sakariya,28-02-1998,left-arm medium-fast,left-hand bat,India,6
+106886,Kuldip Yadav,15-10-1996,left-arm fast-medium,left-hand bat,India,6
+58341,Shashank Singh,21-11-1991,right-arm medium,right-hand bat,India,6
+44876,Sumit Narwal,16-04-1982,right-arm medium,left-hand bat,India,6
+73871,Marco Jansen,01-05-2000,left-arm medium-fast,right-hand bat,South Africa,3
+58466,Sisanda Magala,07-01-1991,right-arm fast-medium,right-hand bat,South Africa,3
+108529,Umran Malik,22-11-1999,right-arm fast,right-hand bat,India,6
+61383,Pawan Suyal,15-10-1989,left-arm medium,right-hand bat,India,6
+50837,Sachithra Senanayake,09-02-1985,right-arm offbreak,right-hand bat,Sri Lanka,8
+11385,Suraj Randiv,30-01-1985,right-arm offbreak,right-hand bat,Sri Lanka,8
+7987,Balachandra Akhil,07-10-1977,right-arm medium-fast,right-hand bat,India,6
+48671,Usman Khawaja,18-12-1986,right-arm medium,left-hand bat,Australia,2
+2292,Sunil Joshi,06-06-1970,slow left-arm orthodox,left-hand bat,India,6
+49028,Ben Cutting,30-01-1987,right-arm fast-medium,right-hand bat,Australia,2
+9989,Jacob Oram,28-07-1978,right-arm fast-medium,left-hand bat,New Zealand,5
+58340,Shoaib Shaikh,18-01-1987,right-arm medium,right-hand bat,India,6
+9925,Azhar Bilakhia,31-05-1986,right-arm medium,right-hand bat,India,6
+68065,Akila Dananjaya,04-10-1993,right-arm offbreak,left-hand bat,Sri Lanka,8
+53581,Sudeep Tyagi,17-09-1987,right-arm medium,right-hand bat,India,6
+54385,Ankit Bawne,17-12-1992,right-arm offbreak,right-hand bat,India,6
+72505,Romario Shepherd,26-11-1994,right-arm fast-medium,right-hand bat,West Indies,4
+51189,Ishank Jaggi,27-01-1989,legbreak googly,right-hand bat,India,6
+24667,Mohammad Ashraful,07-07-1984,right-arm offbreak,right-hand bat,Bangladesh,25
+67609,Kuldeep Yadav,14-12-1994,left-arm wrist-spin,left-hand bat,India,6
+51092,Trent Boult,22-07-1989,left-arm fast-medium,right-hand bat,New Zealand,5
+50409,KP Appanna,20-12-1988,slow left-arm orthodox,right-hand bat,India,6
+5413,Nuwan Zoysa,13-05-1978,left-arm fast-medium,left-hand bat,Sri Lanka,8
+46688,Doddapaneni Kalyankrishna,16-12-1983,right-arm medium-fast,right-hand bat,India,6
+102738,Nehal Wadhera,04-09-2000,legbreak,left-hand bat,India,6
+4271,Andrew Flintoff,06-12-1977,right-arm fast-medium,right-hand bat,England,1
+50789,Jason Behrendorff,20-04-1990,left-arm fast-medium,right-hand bat,Australia,2
+54369,Michael Bracewell,14-02-1991,right-arm offbreak,left-hand bat,New Zealand,5
+100878,Devdutt Padikkal,07-07-2000,right-arm offbreak,left-hand bat,India,6
+66183,Srikar Bharat,03-10-1993,,right-hand bat,India,6
+59324,Kamran Khan,10-03-1991,left-arm medium-fast,left-hand bat,India,6
+58269,Akshath Reddy,11-02-1991,legbreak,right-hand bat,India,6
+48520,Chamara Kapugedera,24-02-1987,right-arm medium,right-hand bat,Sri Lanka,8
+51453,Palani  Amarnath,01-06-1982,right-arm medium,right-hand bat,India,6
+101312,Anuj Rawat,17-10-1999,,left-hand bat,India,6
+114297,Raghav Goyal,26-01-2001,left-arm wrist-spin,left-hand bat,India,6
+96803,Suyash Prabhudessai,06-12-1997,right-arm medium,right-hand bat,India,6
+104922,Akash Deep,15-12-1996,right-arm fast-medium,right-hand bat,India,6
+53268,D'Arcy Short,09-08-1990,left-arm wrist-spin,left-hand bat,Australia,2
+53649,Rilee Rossouw,09-10-1989,right-arm offbreak,left-hand bat,South Africa,3
+44829,Daren Sammy,20-12-1983,right-arm medium,right-hand bat,West Indies,4
+19596,Misbah-ul-Haq,28-05-1974,legbreak,right-hand bat,Pakistan,7
+9982,Faiz Fazal,07-09-1985,right-arm medium,left-hand bat,India,6
+12928,Yogesh Takawale,05-11-1984,,right-hand bat,India,6
+47065,Aiden Blizzard,27-06-1984,left-arm medium,left-hand bat,Australia,2
+58365,Parvez Rasool,13-02-1989,right-arm offbreak,right-hand bat,India,6
+81141,Anmolpreet Singh,28-03-1998,right-arm offbreak,right-hand bat,India,6
+54212,Marcus Stoinis,16-08-1989,right-arm medium,right-hand bat,Australia,2
+8814,Srikkanth Anirudha,14-04-1987,,right-hand bat,India,6
+46888,Mohammad Nabi,01-01-1985,right-arm offbreak,right-hand bat,Afghanistan,40
+52373,Kusal Perera,17-08-1990,,left-hand bat,Sri Lanka,8
+56832,Kyle Mayers,08-09-1992,right-arm medium,left-hand bat,West Indies,4
+108519,Karan Sharma,31-10-1998,right-arm offbreak,right-hand bat,India,6
+114254,Mohit Rathee,13-01-1999,legbreak,right-hand bat,India,6
+84027,Harry Brook,22-02-1999,right-arm medium,right-hand bat,England,1
+4175,Pankaj Dharmani,27-09-1974,,right-hand bat,India,6
+11930,Aavishkar Salvi,20-10-1981,right-arm medium,right-hand bat,India,6
+9952,Hashim Amla,31-03-1983,right-arm medium,right-hand bat,South Africa,3
+79151,Naveen-ul-Haq,23-09-1999,right-arm medium-fast,right-hand bat,Afghanistan,40
+61690,Dasun Shanaka,09-09-1991,right-arm medium,right-hand bat,Sri Lanka,8
+101792,Mohsin Khan,15-07-1998,left-arm medium-fast,left-hand bat,India,6
+58511,Beuran Hendricks,08-06-1990,left-arm fast-medium,left-hand bat,South Africa,3
+75249,Shivam Sharma,09-09-1993,right-arm offbreak,right-hand bat,India,6
+8539,Mohnish  Mishra,09-02-1984,right-arm offbreak,right-hand bat,India,6
+7642,Anirudh Singh,02-08-1980,right-arm medium,left-hand bat,India,6
+49750,Bodapati Sumanth,10-05-1988,right-arm medium-fast,right-hand bat,India,6
+103588,Shahbaz Ahmed,11-12-1994,slow left-arm orthodox,left-hand bat,India,6
+78239,Wanindu Hasaranga,29-07-1997,legbreak,right-hand bat,Sri Lanka,8
+64244,Pat Cummins,08-05-1993,right-arm fast,right-hand bat,Australia,2
+24777,Jeevan Mendis,15-01-1983,legbreak,left-hand bat,Sri Lanka,8
+105938,Matheesha Pathirana,18-12-2002,right-arm fast,right-hand bat,Sri Lanka,8
+54674,Mustafizur Rahman,06-09-1995,left-arm fast-medium,left-hand bat,Bangladesh,25
+104787,Akash Singh,26-04-2002,left-arm medium-fast,right-hand bat,India,6
+110604,Gurnoor Brar,25-05-2000,right-arm fast,left-hand bat,India,6
+88977,Prerak Mankad,23-04-1994,right-arm medium,right-hand bat,India,6
+53121,David Willey,28-02-1990,left-arm fast-medium,left-hand bat,England,1
+77873,Vijaykumar Vyshak,31-01-1997,right-arm medium,right-hand bat,India,6
+80607,Tushar Deshpande,15-05-1995,right-arm medium,left-hand bat,India,6
+80817,Nathan Ellis,22-09-1994,right-arm fast-medium,right-hand bat,Australia,2
+61411,Krishnakant  Upadhyay,18-06-1986,right-arm medium,right-hand bat,India,6
+85975,Josh Little,01-11-1999,left-arm fast-medium,right-hand bat,Ireland,29
+7419,Tillakaratne Dilshan,14-10-1976,right-arm offbreak,right-hand bat,Sri Lanka,8
+12619,Paras Dogra,19-11-1984,legbreak,right-hand bat,India,6
+10485,Amit Uniyal,21-11-1981,left-arm medium,left-hand bat,India,6
+10439,Younis Khan,29-11-1977,right-arm medium,right-hand bat,Pakistan,7
+10557,Devraj Patil,06-12-1984,,right-hand bat,India,6
+59259,Manprit Juneja,12-09-1990,right-arm offbreak,right-hand bat,India,6
+70695,Tim Seifert,14-12-1994,,right-hand bat,New Zealand,5
+53391,Krishmar Santokie,20-12-1984,left-arm medium,left-hand bat,West Indies,4
+49106,Colin Munro,11-03-1987,right-arm medium-fast,left-hand bat,New Zealand,5
+64758,Ashton Turner,25-01-1993,right-arm offbreak,right-hand bat,Australia,2
+10386,Nathan McCullum,01-09-1980,right-arm offbreak,right-hand bat,New Zealand,5
+72509,Keemo Paul,21-02-1998,right-arm fast-medium,right-hand bat,West Indies,4
+102574,Arjun Tendulkar,24-09-1999,left-arm medium-fast,left-hand bat,India,6
+58435,Adam Zampa,31-03-1992,legbreak googly,right-hand bat,Australia,2
+58253,Hardus Viljoen,06-03-1989,right-arm fast,right-hand bat,South Africa,3
+56993,Mark Wood,11-01-1990,right-arm fast,right-hand bat,England,1
+95329,Yash Thakur,28-12-1998,right-arm fast-medium,right-hand bat,India,6
+45443,Liam Plunkett,06-04-1985,right-arm fast,right-hand bat,England,1
+3329,Darren Lehmann,05-02-1970,slow left-arm orthodox,left-hand bat,Australia,2
+51479,Rohan Raje,03-09-1986,right-arm fast-medium,right-hand bat,India,6
+35344,Davy Jacobs,04-11-1982,right-arm medium,right-hand bat,South Africa,3
+9257,Kamran Akmal,13-01-1982,,right-hand bat,Pakistan,7
+47693,Clint McKay,20-02-1983,right-arm fast-medium,right-hand bat,Australia,2
+48744,Arindam Ghosh,19-10-1986,right-arm medium,right-hand bat,India,6
+58276,Michael Neser,29-03-1990,right-arm medium-fast,right-hand bat,Australia,2
+61993,Scott Boland,11-04-1989,right-arm fast-medium,right-hand bat,Australia,2
+95323,Kamlesh Nagarkoti,28-12-1999,right-arm fast,right-hand bat,India,6
+12400,Adam Voges,04-10-1979,slow left-arm orthodox,right-hand bat,Australia,2
+49314,Aditya Dole,09-10-1987,right-arm medium-fast,right-hand bat,India,6
+61334,Asad Pathan,17-06-1984,right-arm medium,right-hand bat,India,6
+49096,Swapnil Singh,22-01-1991,slow left-arm orthodox,right-hand bat,India,6
+60588,Harmeet Singh,07-09-1992,slow left-arm orthodox,left-hand bat,India,6
+68063,Lukman Meriwala,11-12-1991,left-arm fast-medium,left-hand bat,India,6
+53754,Arun Karthik,15-02-1986,legbreak googly,right-hand bat,India,6
+108645,Vivrant Sharma,30-10-1999,legbreak googly,left-hand bat,India,6
+96532,Abhijeet Tomar,14-03-1995,right-arm offbreak,right-hand bat,India,6
+62490,Tymal Mills,12-08-1992,left-arm fast,right-hand bat,England,1
+62457,Carlos Brathwaite,18-07-1988,right-arm fast-medium,right-hand bat,West Indies,4
+19647,Mohammad Hafeez,17-10-1980,right-arm offbreak,right-hand bat,Pakistan,7
+54936,Taruwar Kohli,17-12-1988,right-arm medium,right-hand bat,India,6
+101217,Prithvi Raj,20-02-1998,left-arm medium,left-hand bat,India,6
+6343,Andre Nel,15-07-1977,right-arm fast-medium,right-hand bat,South Africa,3
+47207,Dillon du Preez,08-11-1981,right-arm fast-medium,right-hand bat,South Africa,3
+87569,Mayank Dagar,11-11-1996,slow left-arm orthodox,right-hand bat,India,6
+104825,Nitish Kumar Reddy,26-05-2003,right-arm medium-fast,right-hand bat,India,6
+49403,Mohnish Parmar,12-04-1988,right-arm offbreak,right-hand bat,India,6
+53548,Sarabjit Ladda,10-07-1986,legbreak,right-hand bat,India,6
+49330,Halhadar Das,10-12-1986,,right-hand bat,India,6
+11271,Dilhara Fernando,19-07-1979,right-arm fast-medium,right-hand bat,Sri Lanka,8
+49034,Kemar Roach,30-06-1988,right-arm fast-medium,right-hand bat,West Indies,4
+49024,Matthew Wade,26-12-1987,right-arm medium,left-hand bat,Australia,2
+90143,Rahmanullah Gurbaz,28-11-2001,,right-hand bat,Afghanistan,40
+52946,Vikrant Yeligati,23-04-1985,right-arm offbreak,right-hand bat,India,6
+8197,Chamara Silva,14-12-1979,legbreak,right-hand bat,Sri Lanka,8
+48148,Farhaan Behardien,09-10-1983,right-arm fast-medium,right-hand bat,South Africa,3
+96757,KM Asif,24-07-1993,right-arm medium,right-hand bat,India,6
+52222,Kyle Abbott,18-06-1987,right-arm fast-medium,right-hand bat,South Africa,3
+9946,Chandrasekar Ganapathy,10-06-1981,right-arm medium,right-hand bat,India,6
+34747,Tim Paine,08-12-1984,right-arm medium,right-hand bat,Australia,2
+45159,Abdur Razzak,15-06-1982,slow left-arm orthodox,left-hand bat,Bangladesh,25
+106837,Akash Madhwal,25-11-1993,right-arm medium-fast,right-hand bat,India,6
+66085,Aniket Choudhary,28-01-1990,left-arm medium,right-hand bat,India,6
+50068,Udit Birla,17-11-1989,right-arm medium,right-hand bat,India,6
+75995,Vishnu Vinod,02-12-1993,,right-hand bat,India,6
+84225,Oshane Thomas,18-02-1997,right-arm fast,left-hand bat,West Indies,4
+26889,Callum Ferguson,21-11-1984,right-arm medium,right-hand bat,Australia,2
+44691,Ravi Bopara,04-05-1985,right-arm medium,right-hand bat,England,1
+66691,Litton Das,13-10-1994,right-arm offbreak,right-hand bat,Bangladesh,25
+7634,Arjun Yadav,23-12-1981,right-arm offbreak,right-hand bat,India,6
+54460,Isuru Udana,17-02-1988,left-arm medium-fast,right-hand bat,Sri Lanka,8
+54389,PM Sarvesh Kumar,26-04-1989,right-arm medium,right-hand bat,India,6
+60557,Siddhesh Lad,23-05-1992,right-arm offbreak,right-hand bat,India,6
+51109,Dinesh Salunkhe,12-11-1982,legbreak,right-hand bat,India,6
+59610,Sean Abbott,29-02-1992,right-arm fast-medium,right-hand bat,Australia,2
+7133,Rohan Gavaskar,20-02-1976,slow left-arm orthodox,left-hand bat,India,6
+67342,Dushmantha Chameera,11-01-1992,right-arm fast,right-hand bat,Sri Lanka,8
+5649,Shoaib Akhtar,13-08-1975,right-arm fast,right-hand bat,Pakistan,7
+58408,Tabraiz Shamsi,18-02-1990,left-arm wrist-spin,right-hand bat,South Africa,3
+8077,Ranadeb Bose,27-02-1979,right-arm fast-medium,right-hand bat,India,6
+59118,Ben Dunk,11-03-1987,right-arm offbreak,left-hand bat,Australia,2
+103597,Yash Dayal,13-12-1997,left-arm medium-fast,right-hand bat,India,6
+51054,Darren Bravo,06-02-1989,right-arm medium,left-hand bat,West Indies,4
+110981,Raj Bawa,12-11-2002,right-arm medium-fast,left-hand bat,India,6
+7130,Wasim Jaffer,16-02-1978,right-arm offbreak,right-hand bat,India,6
+48863,Rusty Theron,24-07-1985,right-arm medium-fast,right-hand bat,USA,11
+106850,Yudhvir Singh,13-09-1997,right-arm medium-fast,right-hand bat,India,6
+51158,Rahil Shaikh,12-06-1985,left-arm medium,left-hand bat,India,6
+7221,Graham Napier,06-01-1980,right-arm medium,right-hand bat,England,1
+54137,Amit Paunikar,18-04-1988,,right-hand bat,India,6
+78281,Chris Green,01-10-1993,right-arm offbreak,right-hand bat,Australia,2
+13029,Sourav Sarkar,15-12-1984,right-arm medium,right-hand bat,India,6
+64741,Prashant Chopra,07-10-1992,legbreak googly,right-hand bat,India,6
+46206,Nuwan Kulasekara,22-07-1982,right-arm fast-medium,right-hand bat,Sri Lanka,8
+12402,Brett Geeves,13-06-1982,right-arm fast-medium,right-hand bat,Australia,2
+73505,Monu Kumar,05-11-1994,right-arm medium,right-hand bat,India,6
+82071,Tom Banton,11-11-1998,,right-hand bat,England,1
+114290,Himanshu Sharma,06-06-1998,legbreak,right-hand bat,India,6
+7128,Reetinder Sodhi,18-10-1980,right-arm medium,right-hand bat,India,6
+7668,Rajesh Pawar,06-09-1979,slow left-arm orthodox,left-hand bat,India,6
+53753,Thalaivan Sargunam,15-05-1985,right-arm offbreak,right-hand bat,India,6
+51220,Shrikant Mundhe,27-10-1988,right-arm medium,right-hand bat,India,6
+48263,Love Ablish,03-12-1982,right-arm medium-fast,right-hand bat,India,6
+110638,Abdul Basith,09-10-1998,right-arm offbreak,right-hand bat,India,6
