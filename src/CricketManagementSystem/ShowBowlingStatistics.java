@@ -12,6 +12,7 @@ import java.sql.SQLException;
 import java.util.Vector;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 
 /**
@@ -42,9 +43,17 @@ public class ShowBowlingStatistics extends javax.swing.JFrame {
         bowlingStats = new javax.swing.JTable();
         printData = new javax.swing.JButton();
         close = new javax.swing.JButton();
+        jInternalFrame3 = new javax.swing.JInternalFrame();
+        year_search = new javax.swing.JTextField();
+        jLabel8 = new javax.swing.JLabel();
+        teamName_search = new javax.swing.JTextField();
+        search2 = new javax.swing.JButton();
+        jLabel9 = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
+        reset = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
-        setLocation(new java.awt.Point(280, 150));
+        setLocation(new java.awt.Point(40, 140));
         setUndecorated(true);
 
         jLabel1.setFont(new java.awt.Font("Segoe UI Emoji", 1, 36)); // NOI18N
@@ -105,24 +114,106 @@ public class ShowBowlingStatistics extends javax.swing.JFrame {
             }
         });
 
+        jInternalFrame3.setVisible(true);
+
+        year_search.setFont(new java.awt.Font("Tahoma", 0, 20)); // NOI18N
+
+        jLabel8.setFont(new java.awt.Font("Tahoma", 0, 20)); // NOI18N
+        jLabel8.setText("Team Name");
+
+        teamName_search.setFont(new java.awt.Font("Tahoma", 0, 20)); // NOI18N
+
+        search2.setFont(new java.awt.Font("Tahoma", 1, 25)); // NOI18N
+        search2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icons/Search.png"))); // NOI18N
+        search2.setText("Search");
+        search2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                search2ActionPerformed(evt);
+            }
+        });
+
+        jLabel9.setFont(new java.awt.Font("Tahoma", 0, 20)); // NOI18N
+        jLabel9.setText("Please Enter Required Details");
+
+        jLabel10.setFont(new java.awt.Font("Tahoma", 0, 20)); // NOI18N
+        jLabel10.setText("Year");
+
+        javax.swing.GroupLayout jInternalFrame3Layout = new javax.swing.GroupLayout(jInternalFrame3.getContentPane());
+        jInternalFrame3.getContentPane().setLayout(jInternalFrame3Layout);
+        jInternalFrame3Layout.setHorizontalGroup(
+            jInternalFrame3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jInternalFrame3Layout.createSequentialGroup()
+                .addGroup(jInternalFrame3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jInternalFrame3Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addGroup(jInternalFrame3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel8)
+                            .addGroup(jInternalFrame3Layout.createSequentialGroup()
+                                .addGap(12, 12, 12)
+                                .addComponent(jLabel10)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(jInternalFrame3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(teamName_search)
+                            .addComponent(year_search)))
+                    .addGroup(jInternalFrame3Layout.createSequentialGroup()
+                        .addGap(34, 34, 34)
+                        .addComponent(jLabel9)
+                        .addGap(0, 31, Short.MAX_VALUE)))
+                .addContainerGap())
+            .addGroup(jInternalFrame3Layout.createSequentialGroup()
+                .addGap(87, 87, 87)
+                .addComponent(search2)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        jInternalFrame3Layout.setVerticalGroup(
+            jInternalFrame3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jInternalFrame3Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel9)
+                .addGap(39, 39, 39)
+                .addGroup(jInternalFrame3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(year_search, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel10))
+                .addGap(33, 33, 33)
+                .addGroup(jInternalFrame3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(teamName_search, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel8))
+                .addGap(37, 37, 37)
+                .addComponent(search2)
+                .addContainerGap())
+        );
+
+        reset.setFont(new java.awt.Font("Tahoma", 1, 25)); // NOI18N
+        reset.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icons/reset.png"))); // NOI18N
+        reset.setText("Reset");
+        reset.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                resetActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 296, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(343, 343, 343))
-            .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane1)
-                .addGap(16, 16, 16))
+                .addComponent(jInternalFrame3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 1081, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 296, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(573, 573, 573))
             .addGroup(layout.createSequentialGroup()
-                .addGap(303, 303, 303)
-                .addComponent(printData, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(168, 168, 168)
+                .addGap(451, 451, 451)
+                .addComponent(printData, javax.swing.GroupLayout.PREFERRED_SIZE, 143, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(reset)
+                .addGap(268, 268, 268)
                 .addComponent(close, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(271, Short.MAX_VALUE))
+                .addGap(101, 101, 101))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -130,11 +221,17 @@ public class ShowBowlingStatistics extends javax.swing.JFrame {
                 .addGap(34, 34, 34)
                 .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(28, 28, 28)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(28, 28, 28))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addComponent(jInternalFrame3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(114, 114, 114)))
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(printData, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(close, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(close, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(reset))
                 .addContainerGap(15, Short.MAX_VALUE))
         );
 
@@ -167,7 +264,6 @@ public class ShowBowlingStatistics extends javax.swing.JFrame {
                     v2.add(rs.getString("Balls"));
                     v2.add(rs.getString("Mdns"));
                     v2.add(rs.getString("Runs"));
-                    v2.add(rs.getString("Runs"));
                     v2.add(rs.getString("Wkts"));
                     v2.add(rs.getString("BBI"));
                     v2.add(rs.getString("Ave"));
@@ -194,6 +290,82 @@ public class ShowBowlingStatistics extends javax.swing.JFrame {
     private void closeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_closeActionPerformed
         this.dispose();
     }//GEN-LAST:event_closeActionPerformed
+
+    private void search2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_search2ActionPerformed
+        String yearToSearch = year_search.getText(); // Assuming year_search is a JTextField where user inputs the year to search
+        String teamToSearch = teamName_search.getText(); // Assuming winner_search is a JTextField where user inputs the winner to search
+
+        // Check if inputs are not empty
+        if (yearToSearch.isEmpty() || teamToSearch.isEmpty()) {
+            JOptionPane.showMessageDialog(this, "Please provide both year and team name to search.");
+            return; // Exit the method if inputs are empty
+        }
+
+        try {
+            Connection con = ConnectionProvider.getConnection();
+            // Prepare the SQL statement with placeholders
+            String sql = "SELECT * FROM bowlingStats WHERE `Year` = ? AND `Team Name` = ?";
+            PreparedStatement pst = con.prepareStatement(sql);
+
+            // Set parameters for the prepared statement
+            pst.setString(1, yearToSearch);
+            pst.setString(2, teamToSearch);
+
+            // Execute the query
+            ResultSet rs = pst.executeQuery();
+
+            // Check if any matches were found
+            boolean bowlerFound = false;
+
+            DefaultTableModel model = (DefaultTableModel) bowlingStats.getModel();
+            model.setRowCount(0); // Clear previous data from the table
+
+            while (rs.next()) {
+                // Match found, retrieve match details
+                bowlerFound = true;
+                int year = rs.getInt("Year");
+                String playerName = rs.getString("Player Name");
+                String teamName = rs.getString("Team Name");
+                int matches = rs.getInt("Mat");
+                String innings = rs.getString("Inns");
+                int balls = rs.getInt("Balls");
+                String mdns = rs.getString("Mdns");
+                String runs = rs.getString("Runs");
+                String wkts = rs.getString("Wkts");
+                String bbi = rs.getString("BBI");
+                String ave = rs.getString("Ave");
+                String econ = rs.getString("Econ");
+                String sr = rs.getString("SR");
+                String five = rs.getString("5");
+                String ten = rs.getString("10");
+                String ct = rs.getString("Ct");
+                String st = rs.getString("St");
+
+                // Add the match details to the table
+                model.addRow(new Object[]{year, playerName , teamName, matches,innings,balls,mdns,wkts,bbi,ave,econ,sr,five,ten,ct,st});
+            }
+
+            if (!bowlerFound) {
+                JOptionPane.showMessageDialog(this, "No players found for the given criteria.");
+            } else {
+                JOptionPane.showMessageDialog(this, "Bowling details successfully found.");
+            }
+
+            // Close the database connection
+            con.close();
+        } catch (SQLException ex) {
+            // Handle database related errors
+            JOptionPane.showMessageDialog(this, "Error: Failed to fetch or save data to the database.");
+        }
+    }//GEN-LAST:event_search2ActionPerformed
+    public void refreshTable() {
+    userLoad();
+}
+    private void resetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_resetActionPerformed
+        year_search.setText("");
+        teamName_search.setText("");
+        userLoad();
+    }//GEN-LAST:event_resetActionPerformed
 
     /**
      * @param args the command line arguments
@@ -233,8 +405,16 @@ public class ShowBowlingStatistics extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JTable bowlingStats;
     private javax.swing.JButton close;
+    private javax.swing.JInternalFrame jInternalFrame3;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JButton printData;
+    private javax.swing.JButton reset;
+    private javax.swing.JButton search2;
+    private javax.swing.JTextField teamName_search;
+    private javax.swing.JTextField year_search;
     // End of variables declaration//GEN-END:variables
 }

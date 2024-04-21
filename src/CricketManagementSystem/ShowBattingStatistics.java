@@ -12,6 +12,7 @@ import java.sql.SQLException;
 import java.util.Vector;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 
 /**
@@ -42,9 +43,17 @@ public class ShowBattingStatistics extends javax.swing.JFrame {
         batting = new javax.swing.JTable();
         printData = new javax.swing.JButton();
         close = new javax.swing.JButton();
+        jInternalFrame1 = new javax.swing.JInternalFrame();
+        year_search = new javax.swing.JTextField();
+        jLabel4 = new javax.swing.JLabel();
+        teamName_search = new javax.swing.JTextField();
+        search = new javax.swing.JButton();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        reset = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
-        setLocation(new java.awt.Point(280, 150));
+        setLocation(new java.awt.Point(30, 120));
         setUndecorated(true);
 
         jLabel1.setFont(new java.awt.Font("Segoe UI Emoji", 1, 36)); // NOI18N
@@ -100,36 +109,121 @@ public class ShowBattingStatistics extends javax.swing.JFrame {
             }
         });
 
+        jInternalFrame1.setVisible(true);
+
+        year_search.setFont(new java.awt.Font("Tahoma", 0, 20)); // NOI18N
+
+        jLabel4.setFont(new java.awt.Font("Tahoma", 0, 20)); // NOI18N
+        jLabel4.setText("Team Name");
+
+        teamName_search.setFont(new java.awt.Font("Tahoma", 0, 20)); // NOI18N
+
+        search.setFont(new java.awt.Font("Tahoma", 1, 25)); // NOI18N
+        search.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icons/Search.png"))); // NOI18N
+        search.setText("Search");
+        search.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                searchActionPerformed(evt);
+            }
+        });
+
+        jLabel2.setFont(new java.awt.Font("Tahoma", 0, 20)); // NOI18N
+        jLabel2.setText("Please Enter Required Details");
+
+        jLabel3.setFont(new java.awt.Font("Tahoma", 0, 20)); // NOI18N
+        jLabel3.setText("Year");
+
+        javax.swing.GroupLayout jInternalFrame1Layout = new javax.swing.GroupLayout(jInternalFrame1.getContentPane());
+        jInternalFrame1.getContentPane().setLayout(jInternalFrame1Layout);
+        jInternalFrame1Layout.setHorizontalGroup(
+            jInternalFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jInternalFrame1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jInternalFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel4)
+                    .addGroup(jInternalFrame1Layout.createSequentialGroup()
+                        .addGap(12, 12, 12)
+                        .addComponent(jLabel3)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(jInternalFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(teamName_search)
+                    .addComponent(year_search))
+                .addContainerGap())
+            .addGroup(jInternalFrame1Layout.createSequentialGroup()
+                .addGap(89, 89, 89)
+                .addComponent(search)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jInternalFrame1Layout.createSequentialGroup()
+                .addContainerGap(40, Short.MAX_VALUE)
+                .addComponent(jLabel2)
+                .addGap(31, 31, 31))
+        );
+        jInternalFrame1Layout.setVerticalGroup(
+            jInternalFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jInternalFrame1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel2)
+                .addGap(39, 39, 39)
+                .addGroup(jInternalFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(year_search, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel3))
+                .addGap(33, 33, 33)
+                .addGroup(jInternalFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(teamName_search, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel4))
+                .addGap(37, 37, 37)
+                .addComponent(search)
+                .addContainerGap())
+        );
+
+        reset.setFont(new java.awt.Font("Tahoma", 1, 25)); // NOI18N
+        reset.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icons/reset.png"))); // NOI18N
+        reset.setText("Reset");
+        reset.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                resetActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel1)
-                .addGap(379, 379, 379))
             .addGroup(layout.createSequentialGroup()
+                .addContainerGap(12, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 1115, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(369, 369, 369)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addComponent(printData, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(205, 205, 205)
-                        .addComponent(close, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(17, Short.MAX_VALUE))
+                        .addGap(251, 251, 251)
+                        .addComponent(reset)
+                        .addGap(225, 225, 225)
+                        .addComponent(close, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(150, 150, 150))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addComponent(jLabel1)
+                        .addGap(379, 379, 379))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addComponent(jInternalFrame1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 1115, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addContainerGap())))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(37, 37, 37)
                 .addComponent(jLabel1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 412, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(52, 52, 52)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(18, 18, 18)
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 412, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(70, 70, 70)
+                        .addComponent(jInternalFrame1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(46, 46, 46)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(printData, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(reset)
                     .addComponent(close, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(59, Short.MAX_VALUE))
         );
@@ -186,6 +280,80 @@ public class ShowBattingStatistics extends javax.swing.JFrame {
         this.dispose();
     }//GEN-LAST:event_closeActionPerformed
 
+    private void searchActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_searchActionPerformed
+        String yearToSearch = year_search.getText(); // Assuming year_search is a JTextField where user inputs the year to search
+        String teamToSearch = teamName_search.getText(); // Assuming winner_search is a JTextField where user inputs the winner to search
+
+        // Check if inputs are not empty
+        if (yearToSearch.isEmpty() || teamToSearch.isEmpty()) {
+            JOptionPane.showMessageDialog(this, "Please provide both year and team name to search.");
+            return; // Exit the method if inputs are empty
+        }
+
+        try {
+            Connection con = ConnectionProvider.getConnection();
+            // Prepare the SQL statement with placeholders
+            String sql = "SELECT * FROM battingStats WHERE `Year` = ? AND `Team Name` = ?";
+            PreparedStatement pst = con.prepareStatement(sql);
+
+            // Set parameters for the prepared statement
+            pst.setString(1, yearToSearch);
+            pst.setString(2, teamToSearch);
+
+            // Execute the query
+            ResultSet rs = pst.executeQuery();
+
+            // Check if any matches were found
+            boolean matchFound = false;
+
+            DefaultTableModel model = (DefaultTableModel) batting.getModel();
+            model.setRowCount(0); // Clear previous data from the table
+
+            while (rs.next()) {
+                // Match found, retrieve match details
+                matchFound = true;
+                String year = rs.getString("Year");
+                String playerName = rs.getString("Player Name");
+                String teamName = rs.getString("Team Name");
+                String matches = rs.getString("Matches");
+                String runs = rs.getString("Runs");
+                String innings = rs.getString("Innings");
+                String strikeRate = rs.getString("Strike Rate");
+                String battingAverage = rs.getString("Batting Average");
+                String highestScore = rs.getString("Highest Score");
+                String avg = rs.getString("Average");
+                String centuries = rs.getString("Centuries");
+                String halfCenturies = rs.getString("Half Centuries");
+                String ducks = rs.getString("Ducks");
+
+                // Add the match details to the table
+                model.addRow(new Object[]{year, playerName , teamName, matches, runs, innings, strikeRate,battingAverage,highestScore,avg,centuries,halfCenturies,ducks});
+            }
+
+            if (!matchFound) {
+                JOptionPane.showMessageDialog(this, "No players found for the given criteria.");
+            } else {
+                JOptionPane.showMessageDialog(this, "Batting details successfully found.");
+            }
+
+            // Close the database connection
+            con.close();
+        } catch (SQLException ex) {
+            // Handle database related errors
+            JOptionPane.showMessageDialog(this, "Error: Failed to fetch or save data to the database.");
+        }
+
+    }//GEN-LAST:event_searchActionPerformed
+    public void refreshTable() {
+    userLoad();
+}
+
+    private void resetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_resetActionPerformed
+        year_search.setText("");
+        teamName_search.setText("");
+        refreshTable();
+    }//GEN-LAST:event_resetActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -224,8 +392,16 @@ public class ShowBattingStatistics extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JTable batting;
     private javax.swing.JButton close;
+    private javax.swing.JInternalFrame jInternalFrame1;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JButton printData;
+    private javax.swing.JButton reset;
+    private javax.swing.JButton search;
+    private javax.swing.JTextField teamName_search;
+    private javax.swing.JTextField year_search;
     // End of variables declaration//GEN-END:variables
 }

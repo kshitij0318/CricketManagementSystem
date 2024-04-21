@@ -8,6 +8,7 @@ import java.sql.SQLException;
 import java.util.Vector;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 
 /**
@@ -36,12 +37,20 @@ public class ShowMatchDetails extends javax.swing.JFrame {
         jSeparator2 = new javax.swing.JSeparator();
         close = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
-        printData = new javax.swing.JButton();
-        jSeparator3 = new javax.swing.JSeparator();
         jScrollPane1 = new javax.swing.JScrollPane();
         tblMatch = new javax.swing.JTable();
+        printData1 = new javax.swing.JButton();
+        reset = new javax.swing.JButton();
+        jInternalFrame1 = new javax.swing.JInternalFrame();
+        year_search = new javax.swing.JTextField();
+        jLabel4 = new javax.swing.JLabel();
+        winner_search = new javax.swing.JTextField();
+        search = new javax.swing.JButton();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        setLocation(new java.awt.Point(280, 240));
         setUndecorated(true);
 
         close.setFont(new java.awt.Font("Tahoma", 1, 25)); // NOI18N
@@ -55,15 +64,6 @@ public class ShowMatchDetails extends javax.swing.JFrame {
 
         jLabel1.setFont(new java.awt.Font("Segoe UI Emoji", 1, 36)); // NOI18N
         jLabel1.setText("ALL MATCH DETAILS");
-
-        printData.setFont(new java.awt.Font("Tahoma", 1, 25)); // NOI18N
-        printData.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icons/print.png"))); // NOI18N
-        printData.setText("Print");
-        printData.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                printDataActionPerformed(evt);
-            }
-        });
 
         tblMatch.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -90,44 +90,139 @@ public class ShowMatchDetails extends javax.swing.JFrame {
         });
         jScrollPane1.setViewportView(tblMatch);
 
+        printData1.setFont(new java.awt.Font("Tahoma", 1, 25)); // NOI18N
+        printData1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icons/print.png"))); // NOI18N
+        printData1.setText("Print");
+        printData1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                printData1ActionPerformed(evt);
+            }
+        });
+
+        reset.setFont(new java.awt.Font("Tahoma", 1, 25)); // NOI18N
+        reset.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icons/reset.png"))); // NOI18N
+        reset.setText("Reset");
+        reset.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                resetActionPerformed(evt);
+            }
+        });
+
+        jInternalFrame1.setVisible(true);
+
+        year_search.setFont(new java.awt.Font("Tahoma", 0, 20)); // NOI18N
+
+        jLabel4.setFont(new java.awt.Font("Tahoma", 0, 20)); // NOI18N
+        jLabel4.setText("Winner");
+
+        winner_search.setFont(new java.awt.Font("Tahoma", 0, 20)); // NOI18N
+
+        search.setFont(new java.awt.Font("Tahoma", 1, 25)); // NOI18N
+        search.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icons/Search.png"))); // NOI18N
+        search.setText("Search");
+        search.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                searchActionPerformed(evt);
+            }
+        });
+
+        jLabel2.setFont(new java.awt.Font("Tahoma", 0, 20)); // NOI18N
+        jLabel2.setText("Please Enter Required Details");
+
+        jLabel3.setFont(new java.awt.Font("Tahoma", 0, 20)); // NOI18N
+        jLabel3.setText("Year");
+
+        javax.swing.GroupLayout jInternalFrame1Layout = new javax.swing.GroupLayout(jInternalFrame1.getContentPane());
+        jInternalFrame1.getContentPane().setLayout(jInternalFrame1Layout);
+        jInternalFrame1Layout.setHorizontalGroup(
+            jInternalFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jInternalFrame1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jInternalFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel2)
+                    .addGroup(jInternalFrame1Layout.createSequentialGroup()
+                        .addGroup(jInternalFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel4)
+                            .addGroup(jInternalFrame1Layout.createSequentialGroup()
+                                .addGap(12, 12, 12)
+                                .addComponent(jLabel3)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(jInternalFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(year_search, javax.swing.GroupLayout.PREFERRED_SIZE, 176, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(winner_search, javax.swing.GroupLayout.PREFERRED_SIZE, 176, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(jInternalFrame1Layout.createSequentialGroup()
+                        .addGap(65, 65, 65)
+                        .addComponent(search)))
+                .addContainerGap())
+        );
+        jInternalFrame1Layout.setVerticalGroup(
+            jInternalFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jInternalFrame1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel2)
+                .addGap(39, 39, 39)
+                .addGroup(jInternalFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(year_search, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel3))
+                .addGap(33, 33, 33)
+                .addGroup(jInternalFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(winner_search, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel4))
+                .addGap(37, 37, 37)
+                .addComponent(search)
+                .addContainerGap())
+        );
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(333, 333, 333)
-                .addComponent(jLabel1)
-                .addGap(0, 306, Short.MAX_VALUE))
-            .addGroup(layout.createSequentialGroup()
-                .addGap(342, 342, 342)
-                .addComponent(printData, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(51, 51, 51)
-                .addComponent(close)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jSeparator2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 974, Short.MAX_VALUE)
-                    .addComponent(jSeparator3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 974, Short.MAX_VALUE)
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING))
-                .addContainerGap())
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jSeparator2)
+                        .addGap(863, 863, 863))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jInternalFrame1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 822, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addContainerGap(22, Short.MAX_VALUE))))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addComponent(printData1, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(169, 169, 169)
+                        .addComponent(reset)
+                        .addGap(166, 166, 166)
+                        .addComponent(close)
+                        .addGap(81, 81, 81))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addComponent(jLabel1)
+                        .addGap(353, 353, 353))))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(31, 31, 31)
+                .addGap(26, 26, 26)
                 .addComponent(jLabel1)
-                .addGap(18, 18, 18)
+                .addGap(11, 11, 11)
                 .addComponent(jSeparator2, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 399, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jSeparator3, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 42, Short.MAX_VALUE)
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 399, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(36, 36, 36))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(110, 110, 110)
+                        .addComponent(jInternalFrame1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(close)
-                    .addComponent(printData))
-                .addContainerGap())
+                    .addComponent(reset)
+                    .addComponent(printData1))
+                .addGap(21, 21, 21))
         );
 
         pack();
@@ -171,12 +266,80 @@ public class ShowMatchDetails extends javax.swing.JFrame {
 	this.dispose();
     }//GEN-LAST:event_closeActionPerformed
 
-    private void printDataActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_printDataActionPerformed
-	try {
+    private void searchActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_searchActionPerformed
+        String yearToSearch = year_search.getText(); // Assuming year_search is a JTextField where user inputs the year to search
+        String winnerToSearch = winner_search.getText(); // Assuming winner_search is a JTextField where user inputs the winner to search
+
+        // Check if inputs are not empty
+        if (yearToSearch.isEmpty() || winnerToSearch.isEmpty()) {
+            JOptionPane.showMessageDialog(this, "Please provide both year and winner to search.");
+            return; // Exit the method if inputs are empty
+        }
+
+        try {
+            Connection con = ConnectionProvider.getConnection();
+            // Prepare the SQL statement with placeholders
+            String sql = "SELECT * FROM Matches WHERE `Year` = ? AND `Winner` = ?";
+            PreparedStatement pst = con.prepareStatement(sql);
+
+            // Set parameters for the prepared statement
+            pst.setString(1, yearToSearch);
+            pst.setString(2, winnerToSearch);
+
+            // Execute the query
+            ResultSet rs = pst.executeQuery();
+
+            // Check if any matches were found
+            boolean matchFound = false;
+
+            DefaultTableModel model = (DefaultTableModel) tblMatch.getModel();
+            model.setRowCount(0); // Clear previous data from the table
+
+            while (rs.next()) {
+                // Match found, retrieve match details
+                matchFound = true;
+                String year = rs.getString("Year");
+                int matchID = rs.getInt("Match ID");
+                String matchNo = rs.getString("Match No.");
+                String matchName = rs.getString("match_name");
+                String winner = rs.getString("Winner");
+                String venue = rs.getString("Venue");
+                String matchDate = rs.getString("match_date");
+
+                // Add the match details to the table
+                model.addRow(new Object[]{year, matchID, matchNo, matchName, winner, venue, matchDate});
+            }
+
+            if (!matchFound) {
+                JOptionPane.showMessageDialog(this, "No matches found for the given criteria.");
+            } else {
+                JOptionPane.showMessageDialog(this, "Match details successfully found.");
+            }
+
+            // Close the database connection
+            con.close();
+        } catch (SQLException ex) {
+            // Handle database related errors
+            JOptionPane.showMessageDialog(this, "Error: Failed to fetch or save data to the database.");
+        }
+
+
+    }//GEN-LAST:event_searchActionPerformed
+
+    private void printData1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_printData1ActionPerformed
+        try {
 	    tblMatch.print();
 	} catch (Exception e) {
 	}
-    }//GEN-LAST:event_printDataActionPerformed
+    }//GEN-LAST:event_printData1ActionPerformed
+    public void refreshTable() {
+    userLoad();
+}
+    private void resetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_resetActionPerformed
+        year_search.setText("");
+        winner_search.setText("");
+        userLoad();
+    }//GEN-LAST:event_resetActionPerformed
 
     /**
      * @param args the command line arguments
@@ -215,11 +378,18 @@ public class ShowMatchDetails extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton close;
+    private javax.swing.JInternalFrame jInternalFrame1;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JSeparator jSeparator2;
-    private javax.swing.JSeparator jSeparator3;
-    private javax.swing.JButton printData;
+    private javax.swing.JButton printData1;
+    private javax.swing.JButton reset;
+    private javax.swing.JButton search;
     private javax.swing.JTable tblMatch;
+    private javax.swing.JTextField winner_search;
+    private javax.swing.JTextField year_search;
     // End of variables declaration//GEN-END:variables
 }
