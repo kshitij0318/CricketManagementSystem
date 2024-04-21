@@ -19,3 +19,49 @@ END//
 DELIMITER ; 
 
 SELECT TopTeamMostTimes(); 
+
+2. Function to get most successful team in ipl: 
+DELIMITER // 
+
+CREATE FUNCTION MostSuccessfulTeam()  
+RETURNS VARCHAR(100)  
+DETERMINISTIC
+READS SQL DATA  
+BEGIN  
+    DECLARE champion_team VARCHAR(100);  
+    -- Retrieve the team that became the champion most times  
+    SELECT Champion INTO champion_team  
+    FROM (  
+        SELECT Champion, COUNT(*) AS num_championships  
+        FROM seasons  
+        GROUP BY Champion  
+        ORDER BY num_championships DESC  
+        LIMIT 1  
+    ) AS most_successful_team;  
+    RETURN CONCAT('Most successful team: ', champion_team);  
+END// 
+DELIMITER ; 
+
+select mostsuccessfulteam(); 
+
+3. Function to get teams which has been runner-up most time: 
+
+DELIMITER // 
+DROP FUNCTION IF EXISTS MostRunnerUpTeam// 
+CREATE FUNCTION MostRunnerUpTeam() RETURNS VARCHAR(255) 
+DETERMINISTIC 
+BEGIN 
+    DECLARE runner_up_team VARCHAR(255); 
+    SELECT `runner-up` INTO runner_up_team 
+    FROM ( 
+        SELECT `runner-up`, COUNT(*) AS num_times_runner_up 
+        FROM seasons 
+        GROUP BY `runner-up` 
+        ORDER BY num_times_runner_up DESC 
+        LIMIT 1 
+    ) AS runner_up_count; 
+    RETURN runner_up_team; 
+END// 
+DELIMITER ; 
+
+select mostrunnerupteam(); 
