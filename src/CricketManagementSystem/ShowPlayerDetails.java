@@ -11,10 +11,7 @@ import java.util.logging.Logger;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 
-/**
- *
- * @author amarj
- */
+
 public class ShowPlayerDetails extends javax.swing.JFrame {
 
     /**
@@ -33,7 +30,6 @@ public class ShowPlayerDetails extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        reset = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
         jSeparator2 = new javax.swing.JSeparator();
         printData = new javax.swing.JButton();
@@ -47,15 +43,6 @@ public class ShowPlayerDetails extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         reset3 = new javax.swing.JButton();
-
-        reset.setFont(new java.awt.Font("Tahoma", 1, 25)); // NOI18N
-        reset.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icons/reset.png"))); // NOI18N
-        reset.setText("Reset");
-        reset.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                resetActionPerformed(evt);
-            }
-        });
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setUndecorated(true);
@@ -328,10 +315,6 @@ public class ShowPlayerDetails extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(this, "Error: Failed to fetch or save data to the database.");
         }
     }//GEN-LAST:event_searchActionPerformed
-
-    private void resetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_resetActionPerformed
-        
-    }//GEN-LAST:event_resetActionPerformed
     public void refreshTable() {
     userLoad();
 }
@@ -386,7 +369,6 @@ public class ShowPlayerDetails extends javax.swing.JFrame {
     private javax.swing.JSeparator jSeparator3;
     private javax.swing.JTextField nationality_search;
     private javax.swing.JButton printData;
-    private javax.swing.JButton reset;
     private javax.swing.JButton reset3;
     private javax.swing.JButton search;
     private javax.swing.JTable tblPlayer;

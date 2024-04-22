@@ -158,11 +158,6 @@ public class EditTeamOwnerDetails extends javax.swing.JFrame {
         jLabel14.setText("Country");
 
         company_Name.setFont(new java.awt.Font("Tahoma", 0, 20)); // NOI18N
-        company_Name.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                company_NameActionPerformed(evt);
-            }
-        });
 
         team_name.setFont(new java.awt.Font("Tahoma", 0, 20)); // NOI18N
 
@@ -460,10 +455,6 @@ public class EditTeamOwnerDetails extends javax.swing.JFrame {
         }
 
     }//GEN-LAST:event_deleteActionPerformed
-
-    private void company_NameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_company_NameActionPerformed
-
-    }//GEN-LAST:event_company_NameActionPerformed
 
     /**
      * @param args the command line arguments

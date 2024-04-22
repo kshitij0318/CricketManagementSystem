@@ -11,10 +11,6 @@ import java.util.logging.Logger;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 
-/**
- *
- * @author amarj
- */
 public class ShowMatchDetails extends javax.swing.JFrame {
 
     /**

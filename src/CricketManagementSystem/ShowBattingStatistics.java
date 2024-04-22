@@ -239,7 +239,7 @@ public class ShowBattingStatistics extends javax.swing.JFrame {
 	int count;
 	try {
 	    Connection con = ConnectionProvider.getConnection();
-	    pst = con.prepareStatement("select * from  battingStats");
+	    pst = con.prepareStatement("select * from battingStats");
 	    rs = pst.executeQuery();
 
 	    ResultSetMetaData rsd = rs.getMetaData();

@@ -12,10 +12,7 @@ import java.util.logging.Logger;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 
-/**
- *
- * @author amarj
- */
+
 public class EditStadiumDetails extends javax.swing.JFrame {
 
     /**
@@ -125,11 +122,6 @@ public class EditStadiumDetails extends javax.swing.JFrame {
         jLabel14.setText("Home Team");
 
         stadium_id.setFont(new java.awt.Font("Tahoma", 0, 20)); // NOI18N
-        stadium_id.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                stadium_idActionPerformed(evt);
-            }
-        });
 
         Country.setFont(new java.awt.Font("Tahoma", 0, 20)); // NOI18N
 
@@ -420,10 +412,6 @@ public class EditStadiumDetails extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(this, "Error: Failed to delete Stadium data.", "Database Error", JOptionPane.ERROR_MESSAGE);
         }
     }//GEN-LAST:event_deleteActionPerformed
-
-    private void stadium_idActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_stadium_idActionPerformed
-
-    }//GEN-LAST:event_stadium_idActionPerformed
 
     private void saveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_saveActionPerformed
         int stadiumid;

@@ -12,10 +12,7 @@ import java.util.logging.Logger;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 
-/**
- *
- * @author amarj
- */
+
 public class EditTeamDetails extends javax.swing.JFrame {
 
     /**
@@ -134,11 +131,6 @@ public class EditTeamDetails extends javax.swing.JFrame {
         jLabel14.setText("Current Coach");
 
         team_name.setFont(new java.awt.Font("Tahoma", 0, 20)); // NOI18N
-        team_name.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                team_nameActionPerformed(evt);
-            }
-        });
 
         Sponsors.setFont(new java.awt.Font("Tahoma", 0, 20)); // NOI18N
 
@@ -461,10 +453,6 @@ public class EditTeamDetails extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(this, "Error: Failed to delete Team Name.", "Database Error", JOptionPane.ERROR_MESSAGE);
         }
     }//GEN-LAST:event_deleteActionPerformed
-
-    private void team_nameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_team_nameActionPerformed
-
-    }//GEN-LAST:event_team_nameActionPerformed
 
     /**
      * @param args the command line arguments
